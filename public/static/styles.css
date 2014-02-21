@@ -1,0 +1,37 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+#header {
+	height: 400px;
+	width: 100%;
+	z-index: -100;
+	position: fixed;
+}
+	#header div {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 60%;
+		z-index: 10;
+		background-image: url('/static/header.jpg');
+	}
+
+#content {
+	z-index: 1;
+}
+	.header_pad {
+		position:relative;
+		width:100%;
+		height: 400px;
+	}
+
+	#body {
+		background: #fff;
+		height: 3400px;
+	}
+
