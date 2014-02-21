@@ -3,7 +3,7 @@ body {
 	padding: 0px;
 }
 #header {
-	height: 400px;
+	height: 370px;
 	width: 100%;
 	z-index: -100;
 	position: fixed;
@@ -18,16 +18,16 @@ body {
 		background-size: cover;
 		background-position: center 60%;
 		z-index: 10;
-		background-image: url('/static/header.jpg');
+		background-image: url('/static/img/header.jpg');
 	}
-
+	
 #content {
 	z-index: 1;
 }
 	.header_pad {
 		position:relative;
 		width:100%;
-		height: 400px;
+		height: 370px;
 	}
 
 	#body {
