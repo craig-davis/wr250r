@@ -4,19 +4,20 @@ The unofficial wr250r knowledge base and product guide
 
 
 #### Description
-Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked docs, videos and products. All item pages (product, doc, video) links to related content of other types (doc to product and videos) when relevant.
+Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles, videos and products. All item pages (product, article, video) links to related content of other types (article to product and videos) when relevant.
 
 
 #### Sitemap
 ```
 /
 
-/docs
-/docs/recommended-maintenance
-/docs/exup-removeal-guide
-/docs/flapper-mod-guide
-/docs/wr250x-to-wr250r-conversion-guide
-/docs/wr250r-to-wr250x-conversion-guide
+/articles
+/articles/recommended-maintenance
+/articles/exup-removeal-guide
+/articles/flapper-mod-guide
+/articles/wr250x-to-wr250r-conversion-guide
+/articles/wr250r-to-wr250x-conversion-guide
+/articles/2008-fuel-pump-issues
 
 /products
 /products/exhaust

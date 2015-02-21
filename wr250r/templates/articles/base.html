@@ -1,13 +1,19 @@
-<template name='docBase'>
-	<div class='container-fluid container-gray page-doc'>
+<template name='articleBase'>
+	<div class='container-fluid container-gray page-article'>
 		
 		<div class='container container-clear padded-15'>
-			<a href='/docs' class='btn btn-sm btn-default btn-transparent'><span class='glyphicon glyphicon-chevron-left'></span> Back to Docs List</a>
+			<a href='/articles' class='btn btn-sm btn-default btn-transparent'><span class='glyphicon glyphicon-chevron-left'></span> Back to Articles List</a>
 		</div>
 		
 		<div class='container'>
 			
 			<div class='col-md-9 container-white padded-20'>
+				
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li><a href='/articles'>Articles</a></li>
+					<li class='active'>This Article Title</li>
+				</ol>
 				
 				<div class='pull-right'>
 					<a href='#' class='btn btn-sm btn-default'><span class='glyphicon glyphicon-star'></span> Bookmark</a>
@@ -17,14 +23,14 @@
 				{{> yield }}
 			</div>
 			
-			<div class='col-md-3 doc-sidebar'>
-				<h2>Related Docs</h2>
+			<div class='col-md-3 article-sidebar'>
 				<div class='container-white padded-15'>
+					<h6>Related Articles</h6>
 					things go here
 				</div>
 				
-				<h2>Related Products</h2>
 				<div class='container-white padded-15'>
+					<h6>Related Products</h6>
 					foobar baz
 				</div>
 			</div>

@@ -5,19 +5,19 @@ Router.route('/', {name : 'index'}, function(){
 	return this.render('index');
 });
 
-Router.route('/docs', function(){
+Router.route('/articles', function(){
 	
-	return this.render('docsIndex');
+	return this.render('articlesIndex');
 	
 });
 
-Router.route('/docs/:docName', function(){
+Router.route('/articles/:articleName', function(){
 	
-	var docName = this.params.docName;
+	var articleName = this.params.articleName;
 	
-	this.layout('docBase');
+	this.layout('articleBase');
 	
-	return this.render('doc-' + docName);
+	return this.render('article-' + articleName);
 	
 });
 
