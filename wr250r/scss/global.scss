@@ -37,20 +37,17 @@ h6 {
 	background: #f0f0f0;
 	padding-bottom: 0px;
 	
-	&>.container:first-child {
-		padding-bottom: 20px;
-	}
-	
 	&>.container {
 		padding-bottom: 0px;
 	}
 
 	.container-clear {
-		margin-top: 5px;
+		padding-right: 30px;
 	}
 
 	.container-white {
 		background: #fff;
+		margin-top: 20px;
 		padding-bottom: 15px;
 	}
 

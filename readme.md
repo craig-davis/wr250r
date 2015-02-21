@@ -12,12 +12,12 @@ Users have the ability to view content and bookmark it. In their accounts page t
 /
 
 /articles
-/articles/recommended-maintenance
+/articles/maintenance-schedule
+/articles/2008-fuel-pump-issues
 /articles/exup-removeal-guide
 /articles/flapper-mod-guide
 /articles/wr250x-to-wr250r-conversion-guide
 /articles/wr250r-to-wr250x-conversion-guide
-/articles/2008-fuel-pump-issues
 
 /products
 /products/exhaust
