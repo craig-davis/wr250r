@@ -1,6 +1,6 @@
 <template name='articlesIndex'>
 	
-	<div class='container-fluid container-gray page-article'>
+	<div class='container-fluid container-gray page-article-list'>
 		
 		<div class='container'>
 			
@@ -11,27 +11,42 @@
 					<li class='active'>Articles</li>
 				</ol>
 				
-				<h1>Todays Popular Articles</h1>
-				<ul>
+				<h1>Popular Articles</h1>
+				<div class='row'>
 					{{#each articles }}
-						<li><a href='/articles/{{ url }}'>{{ title }}</a></li>
+						
+						<div class='col-md-4 article-tile-container'>
+							<a href='/articles/{{ url }}' class='article-tile'>
+								<div class='title'>{{ title }}</div>
+								<div class='teaser'>This is the teaser text etc etc. Lorem ipsum dor salet foo bar. This is the teaser text etc etc. Lorem ipsum dor salet foo bar. This is the teaser text etc etc. Lorem ipsum dor salet foo bar</div>
+							</a>
+						</div>
+						
 					{{else}}
 						<em>No Articles Found</em>
 					{{/each}}
-				</ul>
+				</div>
 				
 			</div>
 			
 			<div class='col-md-3 article-sidebar'>
+				
 				<div class='container-white padded-15'>
-					<h6>Related Articles</h6>
-					things go here
+					<h6>Article Categories</h6>
+					<ul>
+						<li><a href='#'>Reference</a></li>
+						<li><a href='#'>Guides</a></li>
+					</ul>
 				</div>
 				
 				<div class='container-white padded-15'>
-					<h6>Related Products</h6>
-					foobar baz
+					<h6>Contribute</h6>
+					<p>
+						We would love to have you contribute! Submit a page by clicking on some button here below.
+					</p>
+					<center><a href='#' class='btn btn-primary'>Create New Article</a></center>
 				</div>
+				
 			</div>
 			
 		</div>

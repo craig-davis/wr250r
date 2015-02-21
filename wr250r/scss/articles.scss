@@ -1,8 +1,47 @@
 .page-article {
 	
 	.article-sidebar {
+		
 		.container-white {
 			margin-bottom: 15px;
+		}
+		
+	}
+	
+}
+
+.page-article-list {
+	
+	.article-tile-container {
+		
+		padding: 10px;
+		
+		.article-tile {
+			height: 162px;
+			background: #eee;
+			display: block;
+			color: #333;
+
+			padding: 15px 15px 0px 15px;
+			overflow: hidden;
+			border-bottom: 15px solid #eee;
+			
+			&:hover {
+				background: #f5f5f5;
+				border-bottom: 15px solid #f5f5f5;
+				text-decoration: none;
+			}
+			
+			.title {
+				font-size: 16px;
+				text-transform: lowercase;
+				padding-bottom: 10px;
+				letter-spacing: 1px;
+			}
+			.teaser {
+				color: #888;
+			}
+			
 		}
 	}
 	
