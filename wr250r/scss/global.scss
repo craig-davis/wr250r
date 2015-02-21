@@ -1,0 +1,35 @@
+// High Level
+body {
+	margin-top: 50px;
+	
+	color: #333;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+// Containers
+.container-gray {
+	background: #eee;
+	padding-bottom: 0px;
+	
+	&>.container {
+		padding-bottom: 0px;
+	}
+}
+
+.padded-20 {
+	padding: 20px;
+}
+
+.container-white {
+	background: #fff;
+}
+
+p {
+	line-height: 22px;
+	font-size: 16px;
+}
+

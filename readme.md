@@ -10,13 +10,17 @@ Users have the ability to view content and bookmark it. In their accounts page t
 #### Sitemap
 ```
 /
-/products
-/products/exhaust
-/products/exhaust/fmf-powercore-4
 
 /docs
 /docs/recommended-maintenance
 /docs/exup-removeal-guide
+/docs/flapper-mod-guide
+/docs/wr250x-to-wr250r-conversion-guide
+/docs/wr250r-to-wr250x-conversion-guide
+
+/products
+/products/exhaust
+/products/exhaust/fmf-powercore-4
 
 /videos
 /videos/suspension-tuning
