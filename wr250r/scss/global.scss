@@ -8,6 +8,21 @@ body {
 
 h1 {
 	font-size: 28px;
+	margin-top: 0px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+// Bootstrap Extensions
+.btn {
+	color: #555;
+}
+
+.btn-transparent {
+	background: none;
 }
 
 // Containers
@@ -15,17 +30,31 @@ h1 {
 	background: #eee;
 	padding-bottom: 0px;
 	
+	&>.container:first-child {
+		padding-bottom: 20px;
+	}
+	
 	&>.container {
 		padding-bottom: 0px;
 	}
+
+	.container-clear {
+		margin-top: 5px;
+	}
+
+	.container-white {
+		background: #fff;
+		padding-bottom: 15px;
+	}
+
+}
+
+.padded-15 {
+	padding: 15px;
 }
 
 .padded-20 {
 	padding: 20px;
-}
-
-.container-white {
-	background: #fff;
 }
 
 p {
