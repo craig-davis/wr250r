@@ -1,0 +1,56 @@
+<template name='productsIndex'>
+	
+	<div class='container-fluid container-gray page-product-categories'>
+		
+		<div class='container'>
+			
+			<div class='col-md-9 container-white padded-20'>
+				
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li class='active'>Products</li>
+				</ol>
+				
+				<div class='pull-right'>
+					<div class='form-group search-field'>
+						<input type='text' placeholder='search all products...' class='form-control'/>
+					</div>
+				</div>
+				
+				<h1>Product Categories</h1>
+				<div class='row categories-list'>
+					{{#each categories }}
+						
+						<div class='col-md-3 category-tile-container'>
+							<a href='/products/{{ url }}' class='category-tile'>
+								<div class='title'>{{ title }}</div>
+								<div class='teaser'>{{ teaser }}</div>
+							</a>
+						</div>
+						
+					{{else}}
+						<div class='alert alert-warning' role='alert'>No categories found</div>
+					{{/each}}
+				</div>
+				
+			</div>
+			
+			<div class='col-md-3 categories-sidebar'>
+				
+				<div class='container-white padded-15'>
+					
+					<h6>Something cool</h6>
+					<p>Something cool should go here, I'm just not sure what yet</p>
+					
+					<center><a href='#' class='btn btn-primary'>Call To Action</a></center>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</template>
+
