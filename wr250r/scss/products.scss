@@ -1,0 +1,50 @@
+.page-products-index {
+
+	
+	.search-field {
+		
+		width: 200px;
+		margin: 0px;
+		
+	}
+	
+	.categories-list {
+	
+		.category-tile-container {
+			
+			padding: 10px;
+			
+			.category-tile {
+				height: 130px;
+				background: #f5f5f5;
+				// Use aborder because overflow hidden ignores padding
+				border-bottom: 15px solid #f5f5f5;
+				display: block;
+				color: #333;
+
+				padding: 15px 15px 0px 15px;
+				overflow: hidden;
+				
+				&:hover {
+					background: #fafafa;
+					border-bottom: 15px solid #fafafa;
+					text-decoration: none;
+					//box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px 0;
+				}
+				
+				.title {
+					font-size: 16px;
+					text-transform: lowercase;
+					padding-bottom: 10px;
+					letter-spacing: 1px;
+				}
+				.teaser {
+					color: #888;
+				}
+				
+			}
+		}
+	}
+	
+}
+
