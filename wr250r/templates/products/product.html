@@ -1,4 +1,40 @@
 <template name='product'>
-	this is a product
+	
+	<div class='container-fluid container-gray page-product'>
+		
+		<div class='container'>
+			
+			<div class='col-md-9 container-white padded-20'>
+				
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li><a href='/products'>Products</a></li>
+					<li><a href='/products/{{ categoryDoc.url }}'>{{ categoryDoc.title }}</a></li>
+					<li class='active'>{{ productDoc.title }}</li>
+				</ol>
+				
+				<h1>{{ productDoc.title }}</h1>
+					
+				<a href='{{ amazonUrl }}' target='_blank'>{{ amazonUrl }}</a>
+				
+			</div>
+			
+			<div class='col-md-3 categories-sidebar'>
+				
+				<div class='container-white padded-15'>
+					
+					<h6>Something cool</h6>
+					<p>Something cool should go here, I'm just not sure what yet</p>
+					
+					<center><a href='#' class='btn btn-primary'>Call To Action</a></center>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
 </template>
 

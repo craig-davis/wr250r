@@ -16,22 +16,15 @@
 						<input type='text' placeholder='search all products...' class='form-control'/>
 					</div>
 				</div>
-				
 				<h1>Product Categories</h1>
-				<div class='row categories-list'>
+				
+				<ul class='categories-list'>
 					{{#each categories }}
-						
-						<div class='col-md-3 category-tile-container'>
-							<a href='/products/{{ url }}' class='category-tile'>
-								<div class='title'>{{ title }}</div>
-								<div class='teaser'>{{ teaser }}</div>
-							</a>
-						</div>
-						
+						<li><a href='/products/{{ url }}'>{{ title }}</a> <em>{{ teaser }}</em></li>
 					{{else}}
-						<div class='alert alert-warning' role='alert'>No categories found</div>
+						<li><em>No categories found</em></li>
 					{{/each}}
-				</div>
+				</ul>
 				
 			</div>
 			

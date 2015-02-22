@@ -4,24 +4,19 @@ Router.route('/products', function(){
 	
 });
 
-Router.route('/products/:productCategory', function(){
-	
-	var productCategory = this.params.productCategory;
+Router.route('/products/:category', function(){
 	
 	return this.render('productCategory', {
-		productCategory : productCategory
+		category : this.params.productCategory
 	});
 	
 });
 
-Router.route('/products/:productCategory/:productName', function(){
-	
-	var productCategory = this.params.productCategory;
-	var productName = this.params.productName;
+Router.route('/products/:category/:product', function(){
 	
 	return this.render('product', {
-		productCategory : productCategory,
-		productName : productName
+		category : this.params.productCategory,
+		product : this.params.product
 	});
 	
 });
