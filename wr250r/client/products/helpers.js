@@ -22,6 +22,8 @@ Template.productCategory.helpers({
 	products : function(){
 		return Products.find({
 			category : Router.current().params.category
+		},{
+			sort : { sort : 1 }
 		});
 	}
 	
@@ -42,6 +44,7 @@ Template.product.helpers({
 	
 	amazonUrl : function(){
 		var thisProduct = Products.findOne({ url : Router.current().params.product });
+		if(!thisProduct){ return '';}
 		return generateAmazonUrl(thisProduct.amazonId);
 	}
 	

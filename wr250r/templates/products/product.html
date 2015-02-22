@@ -14,8 +14,17 @@
 				</ol>
 				
 				<h1>{{ productDoc.title }}</h1>
+				
+				<em>Product ID: {{ productDoc._id }}</em><br/><br/>
 					
 				<a href='{{ amazonUrl }}' target='_blank'>{{ amazonUrl }}</a>
+				
+				<ul>
+					{{#each productDoc.images }}
+						<li><img src='/images/products/{{ . }}' width='300'/></li>
+					{{/each }}
+					
+				</ul>
 				
 			</div>
 			
