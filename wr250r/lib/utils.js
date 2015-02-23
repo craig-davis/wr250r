@@ -11,3 +11,7 @@ generateAmazonUrl = function(amazonId){
 	
 };
 
+newArrayFront = function(sourceArray, index){
+	return _.rest(sourceArray, index).concat(_.first(sourceArray, index));
+}
+

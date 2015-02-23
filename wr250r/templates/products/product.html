@@ -21,7 +21,7 @@
 				
 				<ul>
 					{{#each productDoc.images }}
-						<li><img src='/images/products/{{ . }}' width='300'/></li>
+						<li><a href='/images/products/{{ . }}' class='image-thumb'><img src='/images/products/{{ . }}' width='300' data-image='{{ . }}'/></a></li>
 					{{/each }}
 					
 				</ul>
