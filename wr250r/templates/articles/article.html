@@ -13,8 +13,8 @@
 				</ol>
 				
 				<div class='pull-right'>
-					<a href='#' class='btn btn-sm btn-default'><span class='glyphicon glyphicon-star'></span> Bookmark</a>
-					<a href='#' class='btn btn-sm btn-default'><span class='glyphicon glyphicon-pencil'></span> Suggest Changes</a>
+					<a href='#' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-article='{{ articleDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
+					<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span> Suggest Changes</a>
 				</div>
 				
 				{{> yield }}

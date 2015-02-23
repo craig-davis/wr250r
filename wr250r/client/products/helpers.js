@@ -38,18 +38,27 @@ Template.product.helpers({
 	},
 	
 	productDoc : function(){
-		var thisProduct = Products.findOne({ url : Router.current().params.product });
-		return thisProduct;
+		return Products.findOne({
+			url : Router.current().params.product
+		});
 	},
 	
 	bookmarked : function(){
-		return false;
+		var thisProduct = Products.findOne({ url : Router.current().params.product });
+		if(!thisProduct){ return false; }
+		
+		return Bookmarks.find({
+			doc_id : thisProduct._id
+		}).count();
+		
 	},
 	
 	amazonUrl : function(){
 		var thisProduct = Products.findOne({ url : Router.current().params.product });
 		if(!thisProduct){ return '';}
+		
 		return generateAmazonUrl(thisProduct.amazonId);
+		
 	}
 	
 });
