@@ -48,3 +48,36 @@
 	
 }
 
+.page-product {
+	
+	.price {
+		font-weight: bold;
+		font-size: 20px;
+		padding-right: 5px;
+	}
+	
+	.product-images {
+		
+		img {
+			max-width: 25%;
+			display: inline-block;
+			height: auto;
+		}
+		a:first-child img {
+			max-width: 100%;
+			display: block;
+		}
+		
+	}
+	
+	.product-actions {
+		margin-bottom: 20px;
+		text-align: right;
+		
+		.btn-lg {
+			margin-left: 8px;
+		}
+	}
+	
+}
+

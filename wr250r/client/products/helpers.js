@@ -42,6 +42,10 @@ Template.product.helpers({
 		return thisProduct;
 	},
 	
+	bookmarked : function(){
+		return false;
+	},
+	
 	amazonUrl : function(){
 		var thisProduct = Products.findOne({ url : Router.current().params.product });
 		if(!thisProduct){ return '';}

@@ -13,16 +13,30 @@
 					<li class='active'>{{ productDoc.title }}</li>
 				</ol>
 				
+				<div class='pull-right'>
+					<div class='price'>${{ productDoc.price }}</div> 
+				</div>
 				<h1>{{ productDoc.title }}</h1>
 				
-				<em>Product ID: {{ productDoc._id }}</em><br/><br/>
-					
-				<a href='{{ amazonUrl }}' target='_blank'>{{ amazonUrl }}</a>
+				<div class='row'>
+					<div class='col-md-6 product-images'>
+						{{#each productDoc.images }}<a href='/images/products/{{ . }}' class='image-thumb' rel='productImage'><img src='/images/products/{{ . }}' class='img-responsive'/></a>{{/each }}
+					</div>
+					<div class='col-md-6'>
+						<div class='product-actions'>
+							<a href='#' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-product='{{ productDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
+							<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-envelope'></span> Share</a>
+							<a href='{{ amazonUrl }}' target='_blank' class='btn btn-primary btn-lg'><span class='glyphicon glyphicon-share-alt'></span> Check it out</a>
+						</div>
+						
+						<div class='product-description'>
+							{{{ productDoc.description }}}
+						</div>
+					</div>
+				</div>
+				
 				
 				<ul>
-					{{#each productDoc.images }}
-						<li><a href='/images/products/{{ . }}' class='image-thumb' rel='productImage'><img src='/images/products/{{ . }}' width='300'/></a></li>
-					{{/each }}
 				</ul>
 				
 			</div>

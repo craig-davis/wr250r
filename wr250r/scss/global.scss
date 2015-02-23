@@ -68,6 +68,13 @@ p {
 	font-size: 16px;
 }
 
+// Common Buttons
+.btn.bookmarked {
+	span {
+		color: #fa0;
+	}
+}
+
 // Footer
 .site-footer {
 	border-top: 1px solid #080808;
