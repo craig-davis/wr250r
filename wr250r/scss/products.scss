@@ -4,31 +4,37 @@
 .page-product {
 	
 	.price {
+		text-align: right;
 		font-weight: bold;
 		font-size: 20px;
-		padding-right: 5px;
+		padding-right: 15px;
 	}
 	
-	.product-images {
-		
-		img {
-			max-width: 25%;
-			display: inline-block;
-			height: auto;
-		}
-		a:first-child img {
-			max-width: 100%;
-			display: block;
-		}
-		
-	}
+	.product-details {
+		padding: 15px;
 	
-	.product-actions {
-		margin-bottom: 20px;
-		text-align: right;
+		.product-images {
+			
+			img {
+				max-width: 25%;
+				display: inline-block;
+				height: auto;
+				margin-bottom: 10px;
+			}
+			a:first-child img {
+				max-width: 100%;
+				display: block;
+			}
+			
+		}
 		
-		.btn-lg {
-			margin-left: 8px;
+		.product-actions {
+			margin-bottom: 20px;
+			text-align: right;
+			
+			.btn-lg {
+				margin-left: 8px;
+			}
 		}
 	}
 	
