@@ -2,6 +2,8 @@ Router.route('/products', function(){
 	
 	return this.render('productsIndex');
 	
+},{
+	name : 'product.index'
 });
 
 Router.route('/products/:category', function(){
@@ -10,6 +12,8 @@ Router.route('/products/:category', function(){
 		category : this.params.productCategory
 	});
 	
+},{
+	name : 'product.category'
 });
 
 Router.route('/products/:category/:product', function(){
@@ -19,5 +23,7 @@ Router.route('/products/:category/:product', function(){
 		product : this.params.product
 	});
 	
+},{
+	name : 'product'
 });
 

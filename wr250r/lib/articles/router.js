@@ -2,6 +2,8 @@ Router.route('/articles', function(){
 	
 	return this.render('articlesIndex');
 	
+},{
+	name : 'article.index'
 });
 
 Router.route('/articles/:articleName', function(){
@@ -12,5 +14,7 @@ Router.route('/articles/:articleName', function(){
 	
 	return this.render('article-' + articleName);
 	
+},{
+	name : 'article'
 });
 
