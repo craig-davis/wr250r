@@ -30,6 +30,11 @@
 						
 						<div class='tile-outer col-md-3'>
 							<div class='tile-inner'>
+								{{#if bookmarked }}
+									<div class='pull-right bookmarked' title='Bookmarked!'>
+										<span class='glyphicon glyphicon-star'></span>
+									</div>
+								{{/if}}
 								<a href='/products/{{ categoryDoc.url }}/{{ url }}'>
 									<img src='/images/products/{{ thumbnail }}' class='img-responsive'/>
 									<div class='title'>{{ title }}</div>

@@ -17,6 +17,11 @@ Template.product.events({
 			Meteor.call('addBookmark', {
 				type : 'product',
 				doc_id : $(e.target).attr('data-product')
+			}, function(error, result){
+				if(error && error.error == 'not-authorized'){
+					alert('To bookmark items, please first log in or create a free account');
+					return true;
+				}
 			});
 		}
 		

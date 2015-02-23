@@ -20,11 +20,19 @@ Template.productCategory.helpers({
 	},
 	
 	products : function(){
-		return Products.find({
+		var products = Products.find({
 			category : Router.current().params.category
 		},{
 			sort : { sort : 1 }
+		}).fetch();
+		
+		_.each(products, function(product){
+			if(Bookmarks.find({ doc_id : product._id }).count()){
+				product.bookmarked = true;
+			}
 		});
+		
+		return products;
 	}
 	
 });
