@@ -4,27 +4,40 @@
 		
 		<div class='container'>
 			
-			<div class='col-md-9 container-white padded-20'>
+			<div class='col-md-9 container-clear padded-20'>
 				
 				<ol class='breadcrumb'>
 					<li><a href='/'>Home</a></li>
 					<li class='active'>Products</li>
 				</ol>
 				
-				<div class='pull-right'>
-					<div class='form-group search-field'>
-						<input type='text' placeholder='search all products...' class='form-control'/>
+				<div class='row'>
+					<div class='col-md-9'>
+						<h1>Product Categories</h1>
+					</div>
+					<div class='col-md-3'>
+						<div class='form-group search-field'>
+							<input type='text' placeholder='search all products...' class='form-control'/>
+						</div>
 					</div>
 				</div>
-				<h1>Product Categories</h1>
 				
-				<ul class='categories-list'>
+				<div class='tile-container'>
 					{{#each categories }}
-						<li><a href='/products/{{ url }}'>{{ title }}</a> <em>{{ teaser }}</em></li>
+	
+						<div class='tile-outer col-md-3'>
+							<div class='tile-inner'>
+								<a href='/products/{{ url }}'>
+									<img src='/images/products/{{ thumbnail }}' class='img-responsive'/>
+									<div class='title'>{{ title }}</div>
+								</a>
+							</div>
+						</div>
+					
 					{{else}}
-						<li><em>No categories found</em></li>
+						<em>No categories found</em>
 					{{/each}}
-				</ul>
+				</div>
 				
 			</div>
 			

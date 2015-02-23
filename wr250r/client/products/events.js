@@ -29,8 +29,11 @@ Template.product.events({
 });
 
 Template.product.rendered = function(){
+	
+	// Enable fancybox for product images
 	$('a[rel=productImage]').fancybox({
 		padding : 0
 	});
+	
 };
 

@@ -4,7 +4,7 @@
 		
 		<div class='container'>
 			
-			<div class='col-md-9 container-white padded-20'>
+			<div class='col-md-12 container-clear padded-20'>
 				
 				<ol class='breadcrumb'>
 					<li><a href='/'>Home</a></li>
@@ -12,32 +12,32 @@
 					<li class='active'>{{ categoryDoc.title }}</li>
 				</ol>
 				
-				<div class='pull-right'>
-					<div class='form-group search-field'>
-						<input type='text' placeholder='search all products...' class='form-control'/>
+				<div class='row'>
+					<div class='col-md-9'>
+						<h1>{{ categoryDoc.title }}</h1>
+					</div>
+					<div class='col-md-3'>
+						<div class='form-group search-field'>
+							<input type='text' placeholder='search all products...' class='form-control'/>
+						</div>
 					</div>
 				</div>
-				<h1>{{ categoryDoc.title }}</h1>
 				
-				<ul class='categories-list'>
+				<div class='tile-container'>
 					{{#each products }}
-						<li><a href='/products/{{ categoryDoc.url }}/{{ url }}'>{{ title }}</a> <em>{{ teaser }}</em></li>
+						
+						<div class='tile-outer col-md-3'>
+							<div class='tile-inner'>
+								<a href='/products/{{ categoryDoc.url }}/{{ url }}'>
+									<img src='/images/products/{{ thumbnail }}' class='img-responsive'/>
+									<div class='title'>{{ title }}</div>
+								</a>
+							</div>
+						</div>
+						
 					{{else}}
 						<em>No products found</em>
 					{{/each}}
-				</ul>
-				
-			</div>
-			
-			<div class='col-md-3 categories-sidebar'>
-				
-				<div class='container-white padded-15'>
-					
-					<h6>Something cool</h6>
-					<p>Something cool should go here, I'm just not sure what yet</p>
-					
-					<center><a href='#' class='btn btn-primary'>Call To Action</a></center>
-					
 				</div>
 				
 			</div>
