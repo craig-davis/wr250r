@@ -21,9 +21,8 @@
 				
 				<ul>
 					{{#each productDoc.images }}
-						<li><a href='/images/products/{{ . }}' class='image-thumb'><img src='/images/products/{{ . }}' width='300' data-image='{{ . }}'/></a></li>
+						<li><a href='/images/products/{{ . }}' class='image-thumb' rel='productImage'><img src='/images/products/{{ . }}' width='300'/></a></li>
 					{{/each }}
-					
 				</ul>
 				
 			</div>
