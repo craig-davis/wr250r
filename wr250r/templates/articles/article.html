@@ -4,20 +4,28 @@
 		
 		<div class='container'>
 			
-			<div class='col-md-9 container-white padded-20'>
+			<div class='col-md-9 container-clear padded-20'>
 				
-				<ol class='breadcrumb'>
-					<li><a href='/'>Home</a></li>
-					<li><a href='/articles'>Articles</a></li>
-					<li class='active'>This Article Title</li>
-				</ol>
-				
-				<div class='pull-right'>
-					<a href='#' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-article='{{ articleDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
-					<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span> Suggest Changes</a>
+				<div class='row'>
+					<ol class='breadcrumb'>
+						<li><a href='/'>Home</a></li>
+						<li><a href='/articles'>Articles</a></li>
+						<li class='active'>This Article Title</li>
+					</ol>
 				</div>
 				
-				{{> yield }}
+				<div class='row'>
+					<div class='container-white padded-20'>
+					
+						<div class='pull-right'>
+							<a href='#' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-article='{{ articleDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
+							<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span> Suggest Changes</a>
+						</div>
+						
+						{{> yield }}
+						
+					</div>
+				</div>
 				
 			</div>
 			
