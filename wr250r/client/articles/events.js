@@ -1,3 +1,19 @@
+Template.articlesIndex.events({
+	
+	'change .categories-filter input' : function(e){
+		
+		// Get categories filter values
+		var showCategories = [];
+		$('.categories-filter input[type=checkbox]:checked').each(function(){
+			showCategories.push($(this).attr('data-category'));
+		});
+		
+		Session.set('articleCategoriesFilter', showCategories);
+		
+	}
+	
+});
+
 Template.articleBase.events({
 	
 	'click a[data-action=bookmark]' : function(e){

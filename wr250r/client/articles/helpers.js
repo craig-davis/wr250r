@@ -1,9 +1,19 @@
 Meteor.subscribe('articles');
 
+Session.setDefault('articleCategoriesFilter', []);
+
 Template.articlesIndex.helpers({
 	
 	articles : function(){
-		var articles = Articles.find().fetch();
+		
+		var whereFields = {};
+		
+		var categoriesFilter = Session.get('articleCategoriesFilter');
+		if(categoriesFilter.length){
+			whereFields['category'] = { $in : categoriesFilter };
+		}
+		
+		var articles = Articles.find(whereFields).fetch();
 		
 		_.each(articles, function(article){
 			if(Bookmarks.find({ doc_id : article._id }).count()){
