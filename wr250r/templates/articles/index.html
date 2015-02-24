@@ -1,31 +1,46 @@
 <template name='articlesIndex'>
 	
-	<div class='container-fluid container-gray page-article-list'>
+	<div class='container-fluid container-gray page-articles-list'>
 		
 		<div class='container'>
 			
-			<div class='col-md-9 container-white padded-20'>
+			<div class='col-md-9 container-clear padded-20'>
 				
-				<ol class='breadcrumb'>
-					<li><a href='/'>Home</a></li>
-					<li class='active'>Articles</li>
-				</ol>
+				<div class='row'>
+					<ol class='breadcrumb'>
+						<li><a href='/'>Home</a></li>
+						<li class='active'>Articles</li>
+					</ol>
+				</div>
 				
-				<div class='pull-right'>
-					<div class='form-group search-field'>
-						<input type='text' placeholder='search all articles...' class='form-control'/>
+				<div class='row'>
+					<div class='col-md-9'>
+						<h1>Popular Articles</h1>
+					</div>
+					<div class='col-md-9'>
+						<div class='form-group search-field'>
+							<input type='text' placeholder='search all articles...' class='form-control'/>
+						</div>
 					</div>
 				</div>
 				
-				<h1>Popular Articles</h1>
-				<div class='row article-list'>
+				<div class='tile-container'>
 					{{#each articles }}
 						
-						<div class='col-md-4 article-tile-container'>
-							<a href='/articles/{{ url }}' class='article-tile'>
-								<div class='title'>{{ title }}</div>
-								<div class='teaser'>This is the teaser text etc etc. Lorem ipsum dor salet foo bar. This is the teaser text etc etc. Lorem ipsum dor salet foo bar. This is the teaser text etc etc. Lorem ipsum dor salet foo bar</div>
-							</a>
+						<div class='col-md-4 tile-outer'>
+							<div class='tile-inner'>
+								<a href='/articles/{{ url }}'>
+									
+									{{#if bookmarked }}
+										<div class='pull-right bookmarked' title='Bookmarked!'>
+											<span class='glyphicon glyphicon-star'></span>
+										</div>
+									{{/if}}
+									
+									<div class='title'>{{ title }}</div>
+									<div class='teaser'>{{ teaser }}</div>
+								</a>
+							</div>
 						</div>
 						
 					{{else}}

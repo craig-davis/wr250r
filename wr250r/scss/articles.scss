@@ -10,55 +10,15 @@
 	
 }
 
-.page-article-list {
+.page-articles-list {
 	
-	.search-field {
+	.tile-inner {
 		
-		width: 200px;
-		margin: 0px;
+		height: 150px;
 		
-	}
-	
-	.article-list {
-		margin: auto -10px;
-		
-		.alert {
-			margin: 15px 10px 5px 10px;
-		}
-	
-		.article-tile-container {
-			
-			padding: 10px;
-			
-			.article-tile {
-				height: 162px;
-				background: #f5f5f5;
-				// Use aborder because overflow hidden ignores padding
-				border-bottom: 15px solid #f5f5f5;
-				display: block;
-				color: #333;
-
-				padding: 15px 15px 0px 15px;
-				overflow: hidden;
-				
-				&:hover {
-					background: #fafafa;
-					border-bottom: 15px solid #fafafa;
-					text-decoration: none;
-					//box-shadow: rgba(0, 0, 0, 0.1) 0 0 3px 0;
-				}
-				
-				.title {
-					font-size: 16px;
-					text-transform: lowercase;
-					padding-bottom: 10px;
-					letter-spacing: 1px;
-				}
-				.teaser {
-					color: #888;
-				}
-				
-			}
+		.title {
+			height: auto !important;
+			margin-bottom: 10px;
 		}
 	}
 	

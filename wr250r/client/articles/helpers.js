@@ -2,7 +2,18 @@ Meteor.subscribe('articles');
 
 Template.articlesIndex.helpers({
 	
-	articles : function(){ return Articles.find(); }
+	articles : function(){
+		var articles = Articles.find().fetch();
+		
+		_.each(articles, function(article){
+			if(Bookmarks.find({ doc_id : article._id }).count()){
+				article.bookmarked = true;
+			}
+		});
+		
+		return articles;
+		
+	}
 	
 });
 
