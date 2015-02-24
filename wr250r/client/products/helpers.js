@@ -4,7 +4,9 @@ Meteor.subscribe('productCategories');
 Template.productsIndex.helpers({
 	
 	categories : function(){
-		return ProductCategories.find({}, {
+		return ProductCategories.find({
+			sort : { $gte : 0 }
+		}, {
 			sort : { sort : 1 }
 		});
 	}
