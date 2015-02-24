@@ -6,23 +6,23 @@ Router.route('/products', function(){
 	name : 'product.index'
 });
 
-Router.route('/products/:category', function(){
-	
-	return this.render('productCategory', {
-		category : this.params.productCategory
-	});
-	
+Router.route('/products/:category', {
+	action : function(){
+		return this.render('productCategory', {
+			category : this.params.productCategory
+		});
+	},
 },{
 	name : 'product.category'
 });
 
-Router.route('/products/:category/:product', function(){
-	
-	return this.render('product', {
-		category : this.params.productCategory,
-		product : this.params.product
-	});
-	
+Router.route('/products/:category/:product', {
+	action : function(){
+		return this.render('product', {
+			category : this.params.productCategory,
+			product : this.params.product
+		});
+	}
 },{
 	name : 'product'
 });
