@@ -36,7 +36,19 @@ Template.articleBase.events({
 			});
 		}
 		
+	},
+	
+	'click a[rel=articleImage]' : function(e){
+		e.preventDefault();
 	}
 	
 });
 
+Template.articleBase.rendered = function(){
+	
+	// Enable fancybox for article images
+	$('a[rel=articleImage]').fancybox({
+		padding : 0
+	});
+	
+};

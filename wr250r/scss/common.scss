@@ -67,7 +67,15 @@ h6 {
 p, ul {
 	line-height: 30px;
 	font-size: 16px;
-	margin: 15px 0px 25px 0px;
+	margin: 20px 0px 20px 0px;
+}
+
+ol {
+	margin-bottom: 20px;
+	
+	li {
+		margin: 5px 0px;
+	}
 }
 
 .search-field {
