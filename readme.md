@@ -18,9 +18,11 @@ Users have the ability to view content and bookmark it. In their accounts page t
 /articles/maintenance-schedule
 /articles/2008-fuel-pump-issues
 /articles/exup-removeal-guide
+/articles/3x3-airbox-mod
 /articles/flapper-mod-guide
 /articles/wr250x-to-wr250r-conversion-guide
 /articles/wr250r-to-wr250x-conversion-guide
+/articles/differences-between-wr250x-and-wr250r
 
 /products
 /products/exhaust
@@ -32,3 +34,4 @@ Users have the ability to view content and bookmark it. In their accounts page t
 /classifieds
 /classifieds/2941
 ```
+

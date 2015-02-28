@@ -15,11 +15,11 @@
 				</div>
 				
 				<div class='row'>
-					<div class='container-white padded-20'>
+					<div class='container-white padded-20 article-body'>
 					
 						<div class='pull-right'>
 							<a href='#' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-article='{{ articleDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
-							<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-pencil'></span> Suggest Edits</a>
+							<a href='mailto:me@shanereustle.com' class='btn btn-default' data-action='suggestEdits'><span class='glyphicon glyphicon-pencil'></span> Suggest Edits</a>
 						</div>
 						
 						{{> yield }}
