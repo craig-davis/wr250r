@@ -1,13 +1,20 @@
-.page-products-index {
-}
 
 .page-product {
 	
-	.price {
-		text-align: right;
-		font-weight: bold;
-		font-size: 20px;
-		padding-right: 15px;
+	.product-header {
+		padding: 20px 20px 0px 20px;
+		
+		.product-actions {
+			text-align: right;
+			
+			.btn-bookmark {
+				margin-bottom: 10px;
+			}
+			.btn-lg {
+				margin-left: 8px;
+			}
+		}
+		
 	}
 	
 	.product-details {
@@ -28,13 +35,7 @@
 			
 		}
 		
-		.product-actions {
-			margin-bottom: 20px;
-			text-align: right;
-			
-			.btn-lg {
-				margin-left: 8px;
-			}
+		.product-description {
 		}
 	}
 	

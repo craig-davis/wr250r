@@ -15,31 +15,32 @@
 					</ol>
 				</div>
 				
-				<div class='row'>
-					<div class='col-md-10'>
-						<h1>{{ productDoc.title }}</h1>
+				<div class='row container-white'>
+					
+					<div class='row product-header'>
+						
+						<div class='col-md-6 product-title'>
+							<h1>{{ productDoc.title }}</h1>
+						</div>
+						
+						<div class='col-md-6 product-actions'>
+							<a href='#{{ productDoc._id }}' class='btn btn-default btn-bookmark {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-product='{{ productDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
+							<!--<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-envelope'></span> Share</a>-->
+							<a href='{{ amazonUrl }}' target='_blank' class='btn btn-primary btn-lg'><span class='glyphicon glyphicon-share-alt'></span> Check it out</a>
+						</div>
+						
 					</div>
-					<div class='col-md-2 price'>
-						${{ productDoc.price }}
-					</div>
-				</div>
-				
-				<div class='container-white'>
+					
 					<div class='row product-details'>
+						
 						<div class='col-md-6 product-images'>
 							{{#each productDoc.images }}<a href='/images/products/{{ . }}' class='image-thumb' rel='productImage'><img src='/images/products/{{ . }}' class='img-responsive'/></a>{{/each }}
 						</div>
-						<div class='col-md-6'>
-							<div class='product-actions'>
-								<a href='#{{ productDoc._id }}' class='btn btn-default {{#if bookmarked }}bookmarked{{/if}}' data-action='bookmark' data-product='{{ productDoc._id }}'><span class='glyphicon glyphicon-star'></span> Bookmark{{#if bookmarked }}ed{{/if}}</a>
-								<!--<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-envelope'></span> Share</a>-->
-								<a href='{{ amazonUrl }}' target='_blank' class='btn btn-primary btn-lg'><span class='glyphicon glyphicon-share-alt'></span> Check it out</a>
-							</div>
-							
-							<div class='product-description'>
-								{{{ productDoc.description }}}
-							</div>
+						
+						<div class='col-md-6 product-description'>
+							{{{ productDoc.description }}}
 						</div>
+						
 					</div>
 				</div>
 				

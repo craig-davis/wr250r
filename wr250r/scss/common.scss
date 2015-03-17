@@ -36,6 +36,8 @@ h6 {
 
 .breadcrumb {
 	background-color: #fff;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 6px 1px rgba(200,200,200,0.5);
 }
 
 // Containers
@@ -52,6 +54,15 @@ h6 {
 		border-radius: 4px;
 		margin-top: 20px;
 		box-shadow: 0px 0px 6px 1px rgba(200,200,200,0.5);
+	}
+	
+	.container-clear {
+		.container-header {
+			h1 {
+				margin-left: -10px;
+				margin: 20px -15px 0px -15px;
+			}
+		}
 	}
 
 }
@@ -84,8 +95,8 @@ ol {
 }
 
 .tile-container {
-	margin-left: -10px;
-	margin-right: -10px;
+	margin-left: -25px;
+	margin-right: -25px;
 	
 	.tile-outer {
 		text-align: center;
@@ -126,6 +137,7 @@ ol {
 				}
 				
 				img {
+					min-height: 130px;
 				}
 				
 				.title {

@@ -15,8 +15,8 @@
 				</div>
 				
 				<div class='row'>
-					<div class='col-md-9'>
-						<h1>{{ categoryDoc.title }}</h1>
+					<div class='col-md-9 container-header'>
+						<h1>{{ categoryDoc.title }} Products</h1>
 					</div>
 					<div class='col-md-3'>
 						<div class='form-group search-field'>
@@ -32,9 +32,8 @@
 							<div class='tile-inner'>
 								<a href='/products/{{ categoryDoc.url }}/{{ url }}'>
 									
-									<div class='price'>${{ price }}</div>
 									{{#if bookmarked }}
-										<div class='pull-right bookmarked' title='Bookmarked!'>
+										<div class='pull-right bookmarked' title='You bookmarked this product'>
 											<span class='glyphicon glyphicon-star'></span>
 										</div>
 									{{/if}}
