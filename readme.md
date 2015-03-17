@@ -6,8 +6,33 @@ The unofficial wr250r knowledge base and product guide
 #### Description
 Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles and products. All item pages (product, article) links to related content of other types (article to products) when relevant.
 
+#### Tasks
+* Setup Compose DB
+* Setup s3 bucket for images
+* Settings.json
+	* Amaozon referral link
+	* s3 bucket url
+* Homepage
+	* Image
+	* Better Copy
+	* List of articles and products
+* Artciles
+	* Related articles
+	* Suggest Edits
+* Products
+	* Popular Products sidebar on all product pages
+	* Related products
+* Contribute Page
+* Spiderable
+* Page titles
+* Prod: Docker image with virtual link to templates folder
 
-### Ideas
+#### Content
+* Exhaust
+	* Pictures of each option installed on a wr
+
+
+#### Ideas
 * Growl style notifications on actions, such as "Bookmarked" or "Price Drop"
 * Classifieds section (bikes for sale) $5 per week, location based
 

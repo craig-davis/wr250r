@@ -12,10 +12,41 @@
 			</div>
 			<div id='navbar' class='collapse navbar-collapse'>
 				<ul class='nav navbar-nav'>
-					<li class='{{#if equals currentRouteGroup 'home' }}active{{/if}}'><a href='{{pathFor route='home' }}' data-toggle='collapse' data-target='.navbar-collapse'>Home</a></li>
-					<li class='{{#if equals currentRouteGroup 'article' }}active{{/if}}'><a href='{{pathFor route='article.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Articles</a></li>
-					<li class='{{#if equals currentRouteGroup 'product' }}active{{/if}}'><a href='{{pathFor route='product.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Products</a></li>
-					<li class='{{#if equals currentRouteGroup 'contribute' }}active{{/if}}'><a href='{{pathFor route='contribute.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Contribute</a></li>
+					
+					<li class='{{#if equals currentRouteGroup 'home' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='home' }}'>Home</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'article' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='article.index' }}'>Articles</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'product' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='product.index' }}'>Products</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'contribute' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='contribute.index' }}'>Contribute</a>
+					</li>
+					
+					<!-- Duplicate links with toggling options for mobile only -->
+					
+					<li class='{{#if equals currentRouteGroup 'home' }}active{{/if}} visible-xs'>
+						<a href='{{pathFor route='home' }}' data-toggle='collapse' data-target='.navbar-collapse'>Home</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'article' }}active{{/if}} visible-xs'>
+						<a href='{{pathFor route='article.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Articles</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'product' }}active{{/if}} visible-xs'>
+						<a href='{{pathFor route='product.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Products</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'contribute' }}active{{/if}} visible-xs'>
+						<a href='{{pathFor route='contribute.index' }}' data-toggle='collapse' data-target='.navbar-collapse'>Contribute</a>
+					</li>
+					
 				</ul>
 				<ul class='nav navbar-nav navbar-right'>
 					{{> loginButtons }}
