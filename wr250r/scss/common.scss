@@ -45,8 +45,16 @@ h6 {
 	background: #f0f0f0;
 	padding-bottom: 0px;
 	
+	@media screen and (max-width: 768px){
+		padding: 0px;
+	}
+	
 	&>.container {
 		padding-bottom: 0px;
+		
+		@media screen and (max-width: 768px){
+			padding: 0px;
+		}
 	}
 
 	.container-white {
