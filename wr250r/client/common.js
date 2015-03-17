@@ -1,5 +1,3 @@
-Meteor.subscribe('bookmarks');
-
 // Scroll to top when we go to a new page
 Router._filters = {
 	resetScroll : function () {

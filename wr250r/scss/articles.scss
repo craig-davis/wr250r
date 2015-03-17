@@ -24,7 +24,9 @@
 	
 	.tile-inner {
 		
-		height: 150px;
+		@media screen and (min-width: 991px){
+			height: 150px;
+		}
 		
 		a {
 			height: 100%;

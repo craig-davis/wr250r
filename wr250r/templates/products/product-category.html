@@ -15,20 +15,15 @@
 				</div>
 				
 				<div class='row'>
-					<div class='col-md-9 container-header'>
+					<div class='col-md-12 container-header'>
 						<h1>{{ categoryDoc.title }} Products</h1>
-					</div>
-					<div class='col-md-3'>
-						<div class='form-group search-field'>
-							<input type='text' placeholder='search all products...' class='form-control'/>
-						</div>
 					</div>
 				</div>
 				
 				<div class='tile-container'>
 					{{#each products }}
 						
-						<div class='tile-outer col-md-3'>
+						<div class='tile-outer col-md-4 col-lg-3'>
 							<div class='tile-inner'>
 								<a href='/products/{{ categoryDoc.url }}/{{ url }}'>
 									

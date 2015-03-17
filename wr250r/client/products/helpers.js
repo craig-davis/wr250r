@@ -1,6 +1,3 @@
-Meteor.subscribe('products');
-Meteor.subscribe('productCategories');
-
 Template.productsIndex.helpers({
 	
 	categories : function(){

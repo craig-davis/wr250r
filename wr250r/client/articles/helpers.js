@@ -1,5 +1,3 @@
-Meteor.subscribe('articles');
-
 Session.setDefault('articleCategoriesFilter', []);
 
 Template.articlesIndex.helpers({
