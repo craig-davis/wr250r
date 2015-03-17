@@ -10,8 +10,9 @@ iron:router
 ian:accounts-ui-bootstrap-3
 accounts-password
 accounts-facebook
-houston:admin
 fourseven:scss
 markdown
 insecure
 mrt:fancybox
+houston:admin
+meteorhacks:fast-render

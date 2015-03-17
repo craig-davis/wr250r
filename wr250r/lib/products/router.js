@@ -6,15 +6,21 @@ Router.route('/products', function(){
 	name : 'product.index'
 });
 
+
 Router.route('/products/:category', {
+	
+	fastRender : true,
+	
 	action : function(){
 		return this.render('productCategory', {
 			category : this.params.productCategory
 		});
-	},
+	}
+	
 },{
 	name : 'product.category'
 });
+
 
 Router.route('/products/:category/:product', {
 	action : function(){

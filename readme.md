@@ -4,11 +4,12 @@ The unofficial wr250r knowledge base and product guide
 
 
 #### Description
-Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles, videos and products. All item pages (product, article, video) links to related content of other types (article to product and videos) when relevant.
+Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles and products. All item pages (product, article) links to related content of other types (article to products) when relevant.
 
 
-### Tasks
+### Ideas
 * Growl style notifications on actions, such as "Bookmarked" or "Price Drop"
+* Classifieds section (bikes for sale) $5 per week, location based
 
 #### Sitemap
 ```
@@ -28,10 +29,5 @@ Users have the ability to view content and bookmark it. In their accounts page t
 /products/exhaust
 /products/exhaust/fmf-powercore-4
 
-/videos
-/videos/suspension-tuning
-
-/classifieds
-/classifieds/2941
 ```
 
