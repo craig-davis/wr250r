@@ -1,3 +1,4 @@
+// pre-load the db on every request
 Router.configure({
 	waitOn : function() {
 		return [
@@ -9,9 +10,23 @@ Router.configure({
 	}
 });
 
-Router.route('/', function(){
-	return this.render('siteIndex');
-},{
-	name : 'home'
+// Homepage route
+Router.route('/', {
+	name : 'home',
+	
+	action : function(){
+		return this.render('siteIndex');
+	}
+	
+});
+
+// Contirubte Page route
+Router.route('/contribute', {
+	name : 'contribute.index',
+	
+	action : function(){
+		return this.render('contributeIndex');
+	}
+	
 });
 
