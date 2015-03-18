@@ -13,7 +13,21 @@
 			<div id='navbar' class='collapse navbar-collapse'>
 				<ul class='nav navbar-nav'>
 					
-					{{> navLinks }}
+					<li class='{{#if equals currentRouteGroup 'home' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='home' }}'>Home</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'article' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='article.index' }}'>Articles</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'product' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='product.index' }}'>Products</a>
+					</li>
+					
+					<li class='{{#if equals currentRouteGroup 'contribute' }}active{{/if}} hidden-xs'>
+						<a href='{{pathFor route='contribute.index' }}'>Contribute</a>
+					</li>
 					
 					<!-- Duplicate links with toggling options for mobile only -->
 					
@@ -40,25 +54,5 @@
 			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
-</template>
-
-<template name='navLinks'>
-	
-	<li class='{{#if equals currentRouteGroup 'home' }}active{{/if}} hidden-xs'>
-		<a href='{{pathFor route='home' }}'>Home</a>
-	</li>
-	
-	<li class='{{#if equals currentRouteGroup 'article' }}active{{/if}} hidden-xs'>
-		<a href='{{pathFor route='article.index' }}'>Articles</a>
-	</li>
-	
-	<li class='{{#if equals currentRouteGroup 'product' }}active{{/if}} hidden-xs'>
-		<a href='{{pathFor route='product.index' }}'>Products</a>
-	</li>
-	
-	<li class='{{#if equals currentRouteGroup 'contribute' }}active{{/if}} hidden-xs'>
-		<a href='{{pathFor route='contribute.index' }}'>Contribute</a>
-	</li>
-	
 </template>
 
