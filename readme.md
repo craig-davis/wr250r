@@ -14,12 +14,11 @@ Users have the ability to view content and bookmark it. In their accounts page t
 * Artciles
 	* Suggest Edits
 * Contribute Page
-* Spiderable
 * Page titles
-* Footer menu
 * Production
 	* Docker image with virtual link to templates folder
 	* mongodb://devuser:devpass5@c713.candidate.35.mongolayer.com:10713,c749.candidate.16.mongolayer.com:10749/wr250r
+	* Verify phantomjs runs in build (dockerfile)
 
 #### Content
 * Exhaust
