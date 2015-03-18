@@ -1,0 +1,18 @@
+<template name='popularProducts'>
+	<h6>Popular Products</h6>
+	<div class='popular-products'>
+		
+		{{#each products }}
+			<div class='col-lg-6'>
+				<a href='/products/{{ category }}/{{ url }}'>
+					<img src='{{ staticContentUrl }}/products/{{ thumbnail }}' class='img-responsive'/>
+				</a>
+			</div>
+		{{/each}}
+	</div>
+		
+	<div class='call-to-action'>
+		<a href='/products' class='btn btn-primary'>See All Products</a>
+	</div>
+</template>
+

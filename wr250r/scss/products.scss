@@ -1,3 +1,23 @@
+// Common
+.products-sidebar {
+	margin-bottom: 15px;
+	
+	.popular-products {
+		
+		>div {
+			padding: 5px;
+		}
+	}
+	.call-to-action {
+		text-align: center;
+		.btn {
+			margin-top: 20px;
+		}
+	}
+}
+
+// Page Specific
+
 .page-product-category {
 	.tile-inner {
 		img {

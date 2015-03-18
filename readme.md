@@ -12,11 +12,7 @@ Users have the ability to view content and bookmark it. In their accounts page t
 	* Better Copy
 	* List of articles and products
 * Artciles
-	* Related articles
 	* Suggest Edits
-* Products
-	* Popular Products sidebar on all product pages
-	* Related products
 * Contribute Page
 * Spiderable
 * Page titles
