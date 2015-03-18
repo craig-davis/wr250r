@@ -41,6 +41,10 @@ Template.articleBase.helpers({
 			doc_id : thisArticle._id
 		}).count();
 	
+	},
+	
+	popularArticles : function(){
+		return Articles.find({ popular : true });
 	}
 	
 });
