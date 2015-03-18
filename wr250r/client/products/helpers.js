@@ -60,11 +60,17 @@ Template.product.helpers({
 		
 	},
 	
-	amazonUrl : function(){
+	productUrl : function(){
 		var thisProduct = Products.findOne({ url : Router.current().params.product });
 		if(!thisProduct){ return '';}
 		
-		return generateAmazonUrl(thisProduct.amazonId);
+		if(thisProduct.amazonId){
+			return generateAmazonUrl(thisProduct.amazonId);
+		}else if(thisProduct.productUrl){
+			return thisProduct.productUrl;
+		}
+		
+		return '#';
 		
 	}
 	

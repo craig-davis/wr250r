@@ -10,7 +10,6 @@ Users have the ability to view content and bookmark it. In their accounts page t
 * Setup Compose DB
 * Setup s3 bucket for images
 * Settings.json
-	* Amaozon referral link
 	* s3 bucket url
 * Homepage
 	* Image
@@ -25,6 +24,7 @@ Users have the ability to view content and bookmark it. In their accounts page t
 * Contribute Page
 * Spiderable
 * Page titles
+* Footer menu
 * Prod: Docker image with virtual link to templates folder
 
 #### Content

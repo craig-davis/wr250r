@@ -3,8 +3,8 @@ generateAmazonUrl = function(amazonId){
 	
 	var output = 'http://www.amazon.com/dp/' + amazonId + '/';
 	
-	if(false){
-		output += '?tag=wr250rcom-20';
+	if(Meteor.settings.public.amazonTrackingId){
+		output += '?tag=' + Meteor.settings.public.amazonTrackingId;
 	}
 	
 	return output;
