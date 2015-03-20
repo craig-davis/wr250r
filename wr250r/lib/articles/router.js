@@ -7,16 +7,16 @@ Router.route('/articles', function(){
 	name : 'article.index'
 });
 
-Router.route('/articles/:articleName', function(){
-	if(Meteor.isClient){
-		Session.set('pageTitle', Articles.findOne({ name : articleName }).title);
-	}
+Router.route('/articles/:article', function(){
+	var article = this.params.article;
 	
-	var articleName = this.params.articleName;
+	if(Meteor.isClient){
+		Session.set('pageTitle', Articles.findOne({ url : article }).title);
+	}
 	
 	this.layout('articleBase');
 	
-	return this.render('article-' + articleName);
+	return this.render('article-' + article);
 	
 },{
 	name : 'article'

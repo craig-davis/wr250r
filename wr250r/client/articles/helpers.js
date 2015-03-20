@@ -29,12 +29,12 @@ Template.articleBase.helpers({
 	
 	articleDoc : function(){
 		return Articles.findOne({
-			url : Router.current().params.articleName
+			url : Router.current().params.article
 		});
 	},
 	
 	bookmarked : function(){
-		var thisArticle = Articles.findOne({ url : Router.current().params.articleName });
+		var thisArticle = Articles.findOne({ url : Router.current().params.article });
 		if(!thisArticle){ return false; }
 	
 		return Bookmarks.find({

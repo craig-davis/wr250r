@@ -8,7 +8,6 @@ Users have the ability to view content and bookmark it. In their accounts page t
 
 #### Tasks
 * Proper 404 pages
-* articleName to url
 * Homepage
 	* Image
 	* Better Copy
