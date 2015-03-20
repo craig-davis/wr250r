@@ -9,7 +9,16 @@ Router._filters = {
 
 var filters = Router._filters;
 
-if(Meteor.isClient) {
-	Router.onAfterAction(filters.resetScroll);
-}
+Router.onAfterAction(filters.resetScroll);
+
+// Set the page title
+Deps.autorun(function(){
+	var titleBase = 'WR250R.com | The unofficial WR250R owners guide';
+	
+	if(Session.get('pageTitle')){
+		document.title = Session.get('pageTitle') + ' | ' + titleBase;
+	}else{
+		document.title = titleBase;
+	}
+});
 

@@ -15,6 +15,8 @@ Router.route('/', {
 	name : 'home',
 	
 	action : function(){
+		if(Meteor.isClient){ Session.set('pageTitle', false); }
+		
 		return this.render('siteIndex');
 	}
 	
@@ -25,6 +27,8 @@ Router.route('/contribute', {
 	name : 'contribute.index',
 	
 	action : function(){
+		if(Meteor.isClient){ Session.set('pageTitle', 'Contribute'); }
+		
 		return this.render('contributeIndex');
 	}
 	
