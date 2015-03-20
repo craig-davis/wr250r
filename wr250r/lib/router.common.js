@@ -1,5 +1,8 @@
 // pre-load the db on every request
 Router.configure({
+	
+	notFoundTemplate : 'notFound',
+	
 	waitOn : function() {
 		return [
 			Meteor.subscribe('bookmarks'),
@@ -8,6 +11,7 @@ Router.configure({
 			Meteor.subscribe('articles')
 		]
 	}
+	
 });
 
 // Homepage route
@@ -15,7 +19,11 @@ Router.route('/', {
 	name : 'home',
 	
 	action : function(){
-		if(Meteor.isClient){ Session.set('pageTitle', false); }
+		
+		// Page Title
+		if(Meteor.isClient){
+			Session.set('pageTitle', false);
+		}
 		
 		return this.render('siteIndex');
 	}
@@ -27,7 +35,9 @@ Router.route('/contribute', {
 	name : 'contribute.index',
 	
 	action : function(){
-		if(Meteor.isClient){ Session.set('pageTitle', 'Contribute'); }
+		if(Meteor.isClient){
+			Session.set('pageTitle', 'Contribute');
+		}
 		
 		return this.render('contributeIndex');
 	}

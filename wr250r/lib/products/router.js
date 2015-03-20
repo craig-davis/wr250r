@@ -13,7 +13,15 @@ Router.route('/products/:category', {
 	fastRender : true,
 	
 	action : function(){
-		if(Meteor.isClient){ Session.set('pageTitle', ProductCategories.findOne({ url : this.params.category }).title + ' Products'); }
+		var productCategoryDoc = ProductCategories.findOne({ url : this.params.category });
+		
+		// Category Not Found
+		if(!productCategoryDoc){
+			return this.render(Router.lookupNotFoundTemplate());
+		}
+		
+		// Page Title
+		if(Meteor.isClient){ Session.set('pageTitle', productCategoryDoc.title + ' Products'); }
 		
 		return this.render('productCategory', {
 			category : this.params.category
@@ -26,8 +34,19 @@ Router.route('/products/:category', {
 
 
 Router.route('/products/:category/:product', {
+	
+	fastRender : true,
+	
 	action : function(){
-		if(Meteor.isClient){ Session.set('pageTitle', Products.findOne({ url : this.params.product }).title); }
+		var productDoc = Products.findOne({ url : this.params.product });
+		
+		// Product Not Found
+		if(!productDoc){
+			return this.render(Router.lookupNotFoundTemplate());
+		}
+		
+		// Page Title
+		if(Meteor.isClient){ Session.set('pageTitle', productDoc.title); }
 		
 		return this.render('product', {
 			category : this.params.category,
