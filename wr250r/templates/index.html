@@ -5,8 +5,8 @@
 			<div class='col-md-10 col-md-offset-1'>
 				<p class='hero-text'>
 					<b>&ldquo;</b>
-					Welcome to WR250R.com, a vibrant community of WR250R and WR250X enthusiasts.
-					Here you&apos;ll find instructional guides, tutorial videos, and the latest aftermarket and OEM parts.
+					Welcome to WR250R.com, the unofficial WR250R and WR250X owners guide.
+					Here you&apos;ll find helpful guides, tutorial videos, and the latest aftermarket and OEM parts.
 					<b>&rdquo;</b>
 				</p>
 			</div>
@@ -15,9 +15,34 @@
 		<div class='container'>
 			<div class='row'>
 				<div class='container-white padded-20 index-body'>
+					<div class='row'>
 					
-					<p>Content goes here</p>
+						<div class='col-md-4'>
+							<img src='/images/homepage_wr.jpg' class='img-responsive img-rounded'/>
+							<div class='img-source'>
+								<a href='http://idratherberiding.com/' target='_blank' title='Image Source: idratherberiding.com'>idratherberiding.com</a>
+							</div>
+						</div>
+						<div class='col-md-8'>
+							
+							<h1>Popular Articles</h1>
+							<ul>
+								{{#each articles }}
+									<li><a href='/articles/{{ url }}'>{{ title }}</a></li>
+								{{/each}}
+							</ul>
+							
+							<h1>Popular Products</h1>
+							{{#each products }}
+								<a href='/products/{{ category }}/{{ url }}' class='product-thumb'>
+									<img src='{{ staticContentUrl }}/products/{{ thumbnail }}' class='img-responsive'/>
+								</a>
+							{{/each}}
+	
+							
+						</div>
 					
+					</div>
 				</div>
 			</div>
 		</div>
