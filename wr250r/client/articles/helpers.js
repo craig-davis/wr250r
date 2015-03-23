@@ -44,7 +44,7 @@ Template.articleBase.helpers({
 	},
 	
 	popularArticles : function(){
-		return Articles.find({ popular : true });
+		return Articles.find({ popular : { $exists : 1 } });
 	}
 	
 });
