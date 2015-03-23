@@ -22,8 +22,7 @@ Template.siteIndex.helpers({
 		}).fetch();
 		
 		return _.filter(results, function(article){
-			return (article.popular);
-			//return (article.popular && article.popular >= 0);
+			return (article.popular && article.popular >= 0);
 		});
 	}
 	

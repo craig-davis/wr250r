@@ -23,23 +23,29 @@
 								<a href='http://idratherberiding.com/' target='_blank' title='Image Source: idratherberiding.com'>idratherberiding.com</a>
 							</div>
 						</div>
-						<div class='col-md-8'>
-							
+						
+						<div class='col-md-4'>
 							<h1>Popular Articles</h1>
 							<ul>
 								{{#each articles }}
 									<li><a href='/articles/{{ url }}'>{{ title }}</a></li>
 								{{/each}}
 							</ul>
-							
+							<div class='text-center'>
+								<a href='/articles' class='btn btn-default btn-sm'>View All Articles</a>
+							</div>
+						</div>
+						
+						<div class='col-md-4'>
 							<h1>Popular Products</h1>
-							{{#each products }}
-								<a href='/products/{{ category }}/{{ url }}' class='product-thumb'>
-									<img src='{{ staticContentUrl }}/products/{{ thumbnail }}' class='img-responsive'/>
-								</a>
-							{{/each}}
-	
-							
+							<ul>
+								{{#each products }}
+									<li><a href='/products/{{ category }}/{{ url }}'>{{ title }}</a></li>
+								{{/each}}
+							</ul>
+							<div class='text-center'>
+								<a href='/products' class='btn btn-default btn-sm'>View All Products</a>
+							</div>
 						</div>
 					
 					</div>

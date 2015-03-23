@@ -82,13 +82,13 @@ Template.popularProducts.helpers({
 		// Why the heck wont $exists work here?
 		
 		var results = Products.find({
-		//	latetsProduct : { $exists : true }
+		//	popular : { $exists : true }
 		},{
-			sort : { latestProduct : 1 }
+			sort : { popular : 1 }
 		}).fetch();
 		
 		return _.filter(results, function(product){
-			return (product.latestProduct && product.latestProduct >= 0);
+			return (product.popular && product.popular >= 0);
 		});
 	}
 	
