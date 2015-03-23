@@ -34,7 +34,11 @@
 					<div class='row product-details'>
 						
 						<div class='col-md-6 product-images'>
-							{{#each productDoc.images }}<a href='{{ staticContentUrl }}products/{{ . }}' class='image-thumb' rel='productImage'><img src='{{ staticContentUrl }}products/{{ . }}' class='img-responsive'/></a>{{/each }}
+							{{#each productDoc.images }}
+								<a href='{{ staticContentUrl }}products/{{ . }}' class='image-thumb' rel='productImage'>
+									<img src='{{ staticContentUrl }}products/{{ . }}' class='img-responsive' alt='Yamaha WR250R {{ productDoc.title }}'/>
+								</a>
+							{{/each }}
 						</div>
 						
 						<div class='col-md-6 product-description'>

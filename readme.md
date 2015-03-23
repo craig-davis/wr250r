@@ -7,10 +7,6 @@ The unofficial wr250r knowledge base and product guide
 Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles and products. All item pages (product, article) links to related content of other types (article to products) when relevant.
 
 #### Tasks
-* Homepage
-	* Image
-	* Better Copy
-	* List of articles and products
 * Production
 	* Docker image with virtual link to templates folder
 	* mongodb://devuser:devpass5@c713.candidate.35.mongolayer.com:10713,c749.candidate.16.mongolayer.com:10749/wr250r
