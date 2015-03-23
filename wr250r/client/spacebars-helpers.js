@@ -6,6 +6,6 @@ UI.registerHelper('equals', function (a, b){
 
 // {{ staticContentUrl }}
 UI.registerHelper('staticContentUrl', function (){
-	return Meteor.settings.public.staticContentUrl;
+	return meteorSettings.public.staticContentUrl;
 });
 

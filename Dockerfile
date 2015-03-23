@@ -2,7 +2,7 @@ FROM phusion/passenger-nodejs:latest
 
 # Install dependencies
 RUN apt-get update
-RUN npm cache clean -f && npm install -g n && n 0.10.35
+RUN npm cache clean -f && npm install -g n && n 0.10.36
 RUN curl https://install.meteor.com/ | sh
 RUN npm install --silent -g forever
 

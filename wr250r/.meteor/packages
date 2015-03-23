@@ -9,11 +9,9 @@ twbs:bootstrap
 iron:router
 ian:accounts-ui-bootstrap-3
 accounts-password
-accounts-facebook
 fourseven:scss
 markdown
 mrt:fancybox
 houston:admin
 meteorhacks:fast-render
 spiderable
-insecure

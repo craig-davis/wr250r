@@ -3,8 +3,8 @@ generateAmazonUrl = function(amazonId){
 	
 	var output = 'http://www.amazon.com/dp/' + amazonId + '/';
 	
-	if(Meteor.settings.public.amazonTrackingId){
-		output += '?tag=' + Meteor.settings.public.amazonTrackingId;
+	if(meteorSettings.public.amazonTrackingId){
+		output += '?tag=' + meteorSettings.public.amazonTrackingId;
 	}
 	
 	return output;
