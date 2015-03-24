@@ -1,3 +1,4 @@
+
 .page-article {
 	
 	.article-actions {
@@ -12,30 +13,6 @@
 		.alert {
 			margin: 20px 0px;
 		}
-	}
-	
-	.article-sidebar {
-		
-		.container-white {
-			margin-bottom: 15px;
-			
-			.popular-articles {
-				list-style-type: none;
-				margin: 0px;
-				padding: 0px;
-				line-height: 22px;
-				
-				li {
-					margin: 15px 0px;
-					
-					&:last-child {
-						margin-bottom: 0px;
-					}
-				}
-			}
-			
-		}
-		
 	}
 	
 }
@@ -59,6 +36,21 @@
 			}
 		}
 	}
+}
+
+// Global
+.popular-articles {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	line-height: 22px;
 	
+	li {
+		margin: 15px 0px;
+		
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
 }
 

@@ -41,9 +41,13 @@ Template.article.helpers({
 			doc_id : thisArticle._id
 		}).count();
 	
-	},
+	}
 	
-	popularArticles : function(){
+});
+
+Template.popularArticles.helpers({
+
+	articles : function(){
 		return Articles.find({ popular : { $exists : 1 } });
 	}
 	

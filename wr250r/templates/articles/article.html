@@ -30,15 +30,10 @@
 				
 			</div>
 			
-			<div class='col-md-3 article-sidebar'>
+			<div class='col-md-3 page-sidebar'>
 				
 				<div class='container-white padded-15'>
-					<h6>Popular Articles</h6>
-					<ul class='popular-articles'>
-						{{#each popularArticles }}
-							<li><a href='/articles/{{ url }}'>{{ title }}</a></li>
-						{{/each}}
-					</ul>
+					{{> popularArticles }}
 				</div>
 				
 				<div class='container-white padded-15 popular-products'>
