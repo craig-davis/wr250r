@@ -1,4 +1,4 @@
-<template name='article'>
+<template name='articleDraftBase'>
 	
 	<div class='container-fluid container-gray page-article'>
 		
@@ -10,7 +10,7 @@
 					<ol class='breadcrumb'>
 						<li><a href='/'>Home</a></li>
 						<li><a href='/articles'>Articles</a></li>
-						<li class='active'>{{ articleDoc.title }}</li>
+						<li class='active'>Draft Article</li>
 					</ol>
 				</div>
 				
@@ -22,8 +22,7 @@
 							<a href='/contribute' class='btn btn-default' data-action='suggestEdits'><span class='glyphicon glyphicon-pencil'></span> Suggest Edits</a>
 						</div>
 						
-						<h1>{{ articleDoc.title }}</h1>
-						{{{ articleDoc.body }}}
+						{{> yield }}
 						
 					</div>
 				</div>

@@ -14,7 +14,7 @@ Template.articlesIndex.events({
 	
 });
 
-Template.articleBase.events({
+Template.article.events({
 	
 	'click a[data-action=bookmark]' : function(e){
 		e.preventDefault();
@@ -44,7 +44,7 @@ Template.articleBase.events({
 	
 });
 
-Template.articleBase.onRendered(function(){
+Template.article.onRendered(function(){
 	
 	// Enable fancybox for article images
 	$('a[rel=articleImage]').fancybox({

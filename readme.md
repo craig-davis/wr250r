@@ -7,9 +7,6 @@ The unofficial WR250R user guide
 Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles and products. All item pages (product, article) links to related content of other types (article to products) when relevant.
 
 #### Tasks
-* Product View Count, Click Count
-* Article View Count
-* Move article body to db
 * Pictures of each exhaust option installed
 * Google analytics (requires settings.json)
 * Verify spiderable (phantomjs on docker)

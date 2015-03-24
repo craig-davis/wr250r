@@ -11,6 +11,24 @@ Router.route('/articles', {
 	
 });
 
+Router.route('/articles/draft', {
+	name : 'article.draft',
+	
+	action : function(){
+		
+		if(Meteor.isClient){
+			Session.set('pageTitle', 'Article Draft');
+		}
+		
+		this.layout('articleDraftBase');
+		
+		return this.render('articleDraft', {
+			article : null
+		});
+	}
+	
+});
+
 Router.route('/articles/:article', {
 	name : 'article',
 	
@@ -27,9 +45,7 @@ Router.route('/articles/:article', {
 			Session.set('pageTitle', articleDoc.title);
 		}
 		
-		this.layout('articleBase');
-		
-		return this.render('article-' + article, {
+		return this.render('article', {
 			article : articleDoc
 		});
 	}

@@ -25,7 +25,7 @@ Template.articlesIndex.helpers({
 	
 });
 
-Template.articleBase.helpers({
+Template.article.helpers({
 	
 	articleDoc : function(){
 		return Articles.findOne({
