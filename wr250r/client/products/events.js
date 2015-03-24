@@ -27,18 +27,25 @@ Template.product.events({
 		
 	},
 	
+	'click a[data-action=viewExternal]' : function(e){
+		Meteor.call('productClick', Products.findOne({ url : Router.current().params.product })._id);
+	},
+	
 	'click a[rel=productImage]' : function(e){
 		e.preventDefault();
 	}
 	
 });
 
-Template.product.rendered = function(){
+Template.product.onRendered(function(){
 	
 	// Enable fancybox for product images
 	$('a[rel=productImage]').fancybox({
 		padding : 0
 	});
 	
-};
+	// Pageview
+	Meteor.call('productView', Products.findOne({ url : Router.current().params.product })._id);
+	
+});
 

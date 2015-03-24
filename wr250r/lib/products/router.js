@@ -48,6 +48,7 @@ Router.route('/products/:category/:product', {
 		// Page Title
 		if(Meteor.isClient){ Session.set('pageTitle', productDoc.title); }
 		
+		// Render
 		return this.render('product', {
 			category : this.params.category,
 			product : this.params.product

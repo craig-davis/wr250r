@@ -29,7 +29,9 @@ Router.route('/articles/:article', {
 		
 		this.layout('articleBase');
 		
-		return this.render('article-' + article);
+		return this.render('article-' + article, {
+			article : articleDoc
+		});
 	}
 	
 });

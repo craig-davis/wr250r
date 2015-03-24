@@ -44,11 +44,15 @@ Template.articleBase.events({
 	
 });
 
-Template.articleBase.rendered = function(){
+Template.articleBase.onRendered(function(){
 	
 	// Enable fancybox for article images
 	$('a[rel=articleImage]').fancybox({
 		padding : 0
 	});
 	
-};
+	// Pageview
+	Meteor.call('articleView', Articles.findOne({ url : Router.current().params.article })._id);
+	
+});
+
