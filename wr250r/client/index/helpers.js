@@ -2,7 +2,7 @@ Template.siteIndex.helpers({
 	
 	products : function(){
 		return Products.find({
-			popular : { $exists : true }
+			popular : { $gte : 0 }
 		},{
 			sort : { popular : 1 }
 		});
@@ -10,7 +10,7 @@ Template.siteIndex.helpers({
 	
 	articles : function(){
 		return Articles.find({
-			popular : { $exists : 1 }
+			popular : { $gte : 0 }
 		},{
 			sort : { popular : 1 }
 		});
