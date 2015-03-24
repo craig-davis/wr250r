@@ -15,9 +15,6 @@ RUN meteor build --directory .
 RUN cd bundle/programs/server && npm install
 WORKDIR /meteorsrc/bundle/
 
-# Install PhantomJS (for spiderable)
-RUN npm install phantomjs
-
 # Run
 EXPOSE 8080
 RUN touch .foreverignore
