@@ -1,24 +1,19 @@
-wr250r.com
+WR250R.com
 ==========
-The unofficial wr250r knowledge base and product guide
+The unofficial WR250R user guide
 
 
 #### Description
 Users have the ability to view content and bookmark it. In their accounts page they can see their bookmarked articles and products. All item pages (product, article) links to related content of other types (article to products) when relevant.
 
 #### Tasks
-* Production
-	* Docker image with virtual link to templates folder
-	* mongodb://devuser:devpass5@c713.candidate.35.mongolayer.com:10713,c749.candidate.16.mongolayer.com:10749/wr250r
-	* Verify phantomjs runs in build (dockerfile)
-
-#### Content
-* Exhaust
-	* Pictures of each option installed on a wr
-
+* Google analytics
+* Move article body to db
+* Verify spiderable
+* Pictures of each exhaust option installed
 
 #### Ideas
-* Growl style notifications on actions, such as "Bookmarked" or "Price Drop"
+* Growl style notifications on actions, such as "Bookmarked"
 * Classifieds section (bikes for sale) $5 per week, location based
 
 #### Sitemap
