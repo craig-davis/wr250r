@@ -80,7 +80,7 @@ Template.popularProducts.helpers({
 	
 	products : function(){
 		return Products.find({
-			popular : { $exists : true }
+			popular : { $gte : 0 }
 		},{
 			sort : { popular : 1 }
 		});

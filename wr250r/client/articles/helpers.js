@@ -56,7 +56,11 @@ Template.article.helpers({
 Template.popularArticles.helpers({
 
 	articles : function(){
-		return Articles.find({ popular : { $exists : 1 } });
+		return Articles.find({
+			popular : { $gte : 0 }
+		},{
+			sort : { popular : 1 }
+		});
 	}
 	
 });
