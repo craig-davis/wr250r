@@ -33,6 +33,14 @@ Template.article.helpers({
 		});
 	},
 	
+	articleBody : function(){
+		var articleBody = Articles.findOne({
+			url : Router.current().params.article
+		}).body;
+		
+		return articleBody.replace(/{{ staticContentUrl }}/g, meteorSettings.public.staticContentUrl);
+	},
+	
 	bookmarked : function(){
 		var thisArticle = Articles.findOne({ url : Router.current().params.article });
 		if(!thisArticle){ return false; }
