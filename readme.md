@@ -9,8 +9,10 @@ Users have the ability to view content and bookmark it. In their accounts page t
 #### Tasks
 * Google analytics
 * Move article body to db
-* Verify spiderable
 * Pictures of each exhaust option installed
+* Verify spiderable
+* Share on FB
+* FB graph tags
 
 #### Ideas
 * Growl style notifications on actions, such as "Bookmarked"
