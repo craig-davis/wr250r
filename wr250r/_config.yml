@@ -2,7 +2,7 @@
 title: WR250R.com | The unofficial WR250R owners guide
 email: me@shanereustle.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here
+  WR250R.com is the unofficial WR250R and WR250X owners guide. Here you'll find helpful guides, tutorial videos, and the latest aftermarket and OEM parts.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wr250r.com" # the base hostname & protocol for your site
 amazonTag: "wr250rcom-20"
