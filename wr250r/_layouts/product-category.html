@@ -23,19 +23,17 @@ layout: default
 			</div>
 			
 			<div class='tile-container'>
-				{% for product in site.products %}
-					{% if product.category == page.category-filter %}
+				{% assign filteredProducts = site.products | where:"category",page.categoryFilter | sort: "sort" %}
+				{% for product in filteredProducts %}
 					
-						<div class='tile-outer col-md-4 col-lg-3'>
-							<div class='tile-inner'>
-								<a href='{{ product.url }}'>
-									<img src='{{ site.staticContentUrl }}products/{{ product.thumbnail }}' class='img-responsive'/>
-									<div class='title'>{{ product.title }}</div>
-								</a>
-							</div>
+					<div class='tile-outer col-md-4 col-lg-3'>
+						<div class='tile-inner'>
+							<a href='{{ product.url }}'>
+								<img src='{{ site.staticContentUrl }}products/{{ product.thumbnail }}' class='img-responsive'/>
+								<div class='title'>{{ product.title }}</div>
+							</a>
 						</div>
-					
-					{% endif %}
+					</div>
 					
 				{% endfor %}
 			</div>

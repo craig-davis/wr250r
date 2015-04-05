@@ -6,6 +6,7 @@ thumbnail: oQu36pDTv9dicXHjW-0.jpg
 images:
   - oQu36pDTv9dicXHjW-1.jpg
   - oQu36pDTv9dicXHjW-2.jpg
+sort: 5
 ---
 
 After installing this premium exhaust system, you will gain horsepower, drop weight, and add a custom look to your machine. Containing all this extra muscle is Two Brother's premium muffler featuring trademarked V.A.L.E. connection system with X-Lite retaining ring and cast magnesium end cap.
