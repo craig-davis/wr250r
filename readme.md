@@ -3,7 +3,6 @@ WR250R.com
 The unofficial WR250R user guide
 
 #### Tasks
-* Google analytics
 * Item Sorting
 * Share on FB
 * FB graph tags
