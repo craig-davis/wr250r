@@ -9,12 +9,12 @@ One of the primary differences to note other than the wheel size is the front br
 
 <div class='row'>
 	<div class='col-md-4 col-md-offset-2'>
-		<a href='{{ site.staticContentUrl }}articles/wr250r-front-brake-assembly.jpg' rel='articleImage'><img src='{{ site.staticContentUrl }}articles/wr250r-front-brake-assembly.jpg' class='img-responsive'/></a>
+		<a href='{{ site.staticContentUrl }}articles/wr250r-front-brake-assembly.jpg' data-featherlight='{{ site.staticContentUrl }}articles/wr250r-front-brake-assembly.jpg'><img src='{{ site.staticContentUrl }}articles/wr250r-front-brake-assembly.jpg' class='img-responsive'/></a>
 		<strong>WR250R Assembly</strong>
 	</div>
 	
 	<div class='col-md-4'>
-		<a href='{{ site.staticContentUrl }}articles/wr250x-front-brake-assembly.jpg' rel='articleImage'><img src='{{ site.staticContentUrl }}articles/wr250x-front-brake-assembly.jpg' class='img-responsive'/></a>
+		<a href='{{ site.staticContentUrl }}articles/wr250x-front-brake-assembly.jpg' data-featherlight='{{ site.staticContentUrl }}articles/wr250x-front-brake-assembly.jpg'><img src='{{ site.staticContentUrl }}articles/wr250x-front-brake-assembly.jpg' class='img-responsive'/></a>
 		<strong>WR250X Assembly</strong>
 	</div>
 </div>
