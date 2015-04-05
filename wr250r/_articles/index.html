@@ -1,7 +1,7 @@
 ---
 title: Articles
 layout: default
-listIgnore: true
+draft: true
 ---
 
 <div class='container-fluid container-gray page-article-list'>
@@ -23,8 +23,9 @@ listIgnore: true
 					<h1>Helpful Articles</h1>
 					
 					<ul>
-						{% for article in site.articles %}
-							{% unless article.listIgnore %}
+						{% assign sortedArticles = site.articles | sort: "sort" %}
+						{% for article in sortedArticles %}
+							{% unless article.draft %}
 								<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
 							{% endunless %}
 						{% endfor %}

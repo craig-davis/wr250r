@@ -1,9 +1,10 @@
 ---
 title: WR250R to WR250X Conversion Guide
 popular: true
+sort: 2
 ---
 
-Converting between the WR250R and the WR250X is a fairly straightforward process. Other than the wheels and tires, the differences between the bikes are minimal. If you are looking to install aftermarket supermoto wheels such as the set from Warp 9, you might be able to skip some of the notes below.
+Converting between the WR250R and the WR250X is a fairly straightforward process. Other than the wheels and tires, the <a href='/articles/differences-between-the-wr250r-and-wr250x.html'>differences between the bikes (read more)</a> are minimal. If you are looking to install aftermarket supermoto wheels such as the set from <a href='http://www.warp9racing.com/sm_wheels_yamaha.html' target='_blank'>Warp 9</a>, you might be able to skip some of the notes below.
 
 One of the primary differences to note other than the wheel size is the front brake assembly. While the wheel hubs are the same between the bikes, the front caliper and rotor are bigger on the X model (R rotor is 250mm, X rotor is 298mm). The X model also has an extra caliper bracket which bolts to the fork. You can see the differences between the two brake assemblys in these diagrams.
 
@@ -20,7 +21,7 @@ One of the primary differences to note other than the wheel size is the front br
 </div>
 
 <div class='alert alert-info'>
-	<strong>Notice</strong>: If you are using Warp 9 supermoto wheels, the front wheel comes with a 240mm rotor instead of the standard WR250X 298mm rotor, so it will fit the stock WR250R caliper assembly.
+	<strong>Notice</strong>: If you are using <a href='http://www.warp9racing.com/sm_wheels_yamaha.html' target='_blank'>Warp 9 supermoto wheels</a>, the front wheel comes with a 240mm rotor instead of the standard WR250X 298mm rotor, so it will fit the stock WR250R caliper assembly.
 </div>
 
 Overall, you have a few options to handle the rotor size difference when using OEM WR250X wheels 
@@ -33,7 +34,7 @@ Once you've sorted out your new wheels and brake rotor sizing, you'll notice tha
 
 Now get out and enjoy your new supermoto!
 
-<table class='table table-striped'>
+<table class='table table-striped data-table'>
 	<caption><em>Helpful Torque Specs</em></caption>
 	<thead>
 		<tr>

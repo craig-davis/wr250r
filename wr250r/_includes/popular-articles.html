@@ -2,7 +2,9 @@
 <ul>
 	{% for article in site.articles %}
 		{% if article.popular %}
-			<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+			{% unless article.draft %}
+				<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+			{% endunless %}
 		{% endif %}
 	{% endfor %}
 </ul>

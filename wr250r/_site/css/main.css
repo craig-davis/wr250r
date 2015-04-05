@@ -175,6 +175,9 @@ ol {
   margin-bottom: 25px; }
 .page-article .article-body .alert {
   margin: 20px 0px; }
+.page-article .article-body .data-table tbody {
+  font-family: courier, sans-serif;
+  font-size: 13px; }
 
 .page-product-category .tile-inner img {
   display: inline-block; }
