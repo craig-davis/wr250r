@@ -36,7 +36,7 @@ layout: default
 					
 					<div class='col-md-6 product-images'>
 						{% for image in page.images %}
-							<a href='{{ site.staticContentUrl }}products/{{ image }}' class='image-thumb' rel='productImage'>
+							<a href='{{ site.staticContentUrl }}products/{{ image }}' class='image-thumb' rel='productImage' target='_blank'>
 								<img src='{{ site.staticContentUrl }}products/{{ image }}' class='img-responsive' alt='Yamaha WR250R {{ page.title }}'/>
 							</a>
 						{% endfor %}

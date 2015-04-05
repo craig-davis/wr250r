@@ -3,6 +3,7 @@ WR250R.com
 The unofficial WR250R user guide
 
 #### Tasks
+* Lightbox for images
 * Google analytics
 * Item Sorting
 * Share on FB
