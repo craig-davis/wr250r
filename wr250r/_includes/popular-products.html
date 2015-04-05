@@ -1,0 +1,9 @@
+<h1>Popular Products</h1>
+<ul>
+	{% for product in site.products %}
+		{% if product.popular %}
+			<li><a href='{{ product.url }}'>{{ product.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>
+

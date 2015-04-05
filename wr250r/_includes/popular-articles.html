@@ -1,0 +1,9 @@
+<h1>Popular Articles</h1>
+<ul>
+	{% for article in site.articles %}
+		{% if article.popular %}
+			<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+		{% endif %}
+	{% endfor %}
+</ul>
+

@@ -1,0 +1,56 @@
+---
+title: Products
+layout: default
+categories:
+  -
+    url: exhaust/
+    title: Exhaust
+    image: zSp5Fpuc3r32j5kHH-0.jpg
+  -
+    url: luggage/
+    title: Luggage
+    image: j2990jjlr32j5kHH-0.jpg
+---
+	
+<div class='container-fluid container-gray page-products-index'>
+	
+	<div class='container'>
+		
+		<div class='col-md-9 container-clear padded-20'>
+			
+			<div class='row'>
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li class='active'>Products</li>
+				</ol>
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-12 container-header'>
+					<h1>Product Categories</h1>
+				</div>
+			</div>
+			
+			<div class='tile-container'>
+				{% for category in page.categories %}
+					
+					<div class='col-md-4 col-lg-4 tile-outer'>
+						<div class='tile-inner'>
+							<a href='/products/{{ category.url }}'>
+								<img src='{{ site.staticContentUrl }}products/{{ category.image }}' class='img-responsive'/>
+								<div class='title'>{{ category.title }}</div>
+							</a>
+						</div>
+					</div>
+					
+				{% endfor %}
+			</div>
+			
+		</div>
+		
+		{% include sidebar.html %}
+		
+	</div>
+	
+</div>
+

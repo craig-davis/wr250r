@@ -1,0 +1,41 @@
+---
+title: Articles
+layout: default
+listIgnore: true
+---
+
+<div class='container-fluid container-gray page-article-list'>
+	
+	<div class='container'>
+		
+		<div class='col-md-9 container-clear padded-20'>
+			
+			<div class='row'>
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li class='active'>Articles</li>
+				</ol>
+			</div>
+			
+			<div class='row'>
+				<div class='container-white padded-20 article-list'>
+					
+					<h1>Helpful Articles</h1>
+					
+					<ul>
+						{% for article in site.articles %}
+							{% unless article.listIgnore %}
+								<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+							{% endunless %}
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		{% include sidebar.html %}
+		
+	</div>
+	
+</div>

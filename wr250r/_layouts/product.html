@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class='container-fluid container-gray page-product'>
+	
+	<div class='container'>
+		
+		<div class='col-md-9 container-clear padded-20'>
+			
+			<div class='row'>
+				<ol class='breadcrumb'>
+					<li><a href='/'>Home</a></li>
+					<li><a href='/products'>Products</a></li>
+					<li><a href='/products/{{ page.category }}' class='text-capitalize'>{{ page.category }}</a></li>
+					<li class='active'>{{ page.title }}</li>
+				</ol>
+			</div>
+			
+			<div class='row container-white'>
+				
+				<div class='row product-header'>
+					
+					<div class='col-md-6 product-title'>
+						<h1>{{ page.title }}</h1>
+					</div>
+					
+					<div class='col-md-6 product-actions'>
+						<!--<a href='#' class='btn btn-default'><span class='glyphicon glyphicon-envelope'></span> Share</a>-->
+						<a href='{{ page.productUrl }}?tag={{ site.amazonTag }}' target='_blank' class='btn btn-primary btn-lg' data-action='viewExternal'><span class='glyphicon glyphicon-share-alt'></span> See Price</a>
+					</div>
+					
+				</div>
+				
+				<div class='row product-details'>
+					
+					<div class='col-md-6 product-images'>
+						{% for image in page.images %}
+							<a href='{{ site.staticContentUrl }}products/{{ image }}' class='image-thumb' rel='productImage'>
+								<img src='{{ site.staticContentUrl }}products/{{ image }}' class='img-responsive' alt='Yamaha WR250R {{ page.title }}'/>
+							</a>
+						{% endfor %}
+					</div>
+					
+					<div class='col-md-6 product-description'>
+						{{ content }}
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		{% include sidebar.html %}
+		
+	</div>
+	
+</div>
+

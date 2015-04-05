@@ -1,0 +1,52 @@
+// Page Specific
+
+.page-product-category {
+	.tile-inner {
+		img {
+			display: inline-block;
+		}
+	}
+}
+
+.page-product {
+	
+	.product-header {
+		padding: 20px 20px 0px 20px;
+		
+		.product-actions {
+			text-align: right;
+			
+			.btn-bookmark {
+				margin-bottom: 10px;
+			}
+			.btn-lg {
+				margin-left: 8px;
+			}
+		}
+		
+	}
+	
+	.product-details {
+		padding: 15px;
+	
+		.product-images {
+			
+			img {
+				max-width: 25%;
+				display: inline-block;
+				height: auto;
+			}
+			a:first-child img {
+				max-width: 100%;
+				display: block;
+				margin-bottom: 10px;
+			}
+			
+		}
+		
+		.product-description {
+		}
+	}
+	
+}
+

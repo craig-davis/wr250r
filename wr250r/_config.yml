@@ -1,0 +1,36 @@
+# Site settings
+title: WR250R.com | The unofficial WR250R owners guide
+email: me@shanereustle.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wr250r.com" # the base hostname & protocol for your site
+amazonTag: "wr250rcom-20"
+#staticContentUrl: "https://s3.amazonaws.com/wr250r-com/images/"
+staticContentUrl: "/static/images/"
+
+# Build settings
+markdown: kramdown
+
+# Define Collections
+collections:
+  products:
+    output: true
+  articles:
+    output: true
+
+# Site Variables
+defaults:
+  -
+    scope:
+      path: ""
+      type: "products"
+    values:
+      layout: product
+  -
+    scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: article
+    
