@@ -2,7 +2,11 @@
 <ul>
 	{% for product in site.products %}
 		{% if product.popular %}
-			<li><a href='{{ product.url }}'>{{ product.title }}</a></li>
+			<li>
+				<a href='{{ product.url }}' title='{{ product.title }}'>
+					{{ product.title }}
+				</a>
+			</li>
 		{% endif %}
 	{% endfor %}
 </ul>

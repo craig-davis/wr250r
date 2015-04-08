@@ -7,7 +7,6 @@ images:
   - zSp5Fpuc3r32j5kHH-1.jpg
   - zSp5Fpuc3r32j5kHH-2.jpg
   - zSp5Fpuc3r32j5kHH-3.jpg
-popular: true
 sort: 3
 ---
 

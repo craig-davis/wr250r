@@ -26,7 +26,7 @@ layout: default
 				{% assign filteredProducts = site.products | where:"category",page.categoryFilter | sort: "sort" %}
 				{% for product in filteredProducts %}
 					
-					<div class='tile-outer col-md-4 col-lg-3'>
+					<div class='tile-outer col-md-4 col-lg-4'>
 						<div class='tile-inner'>
 							<a href='{{ product.url }}'>
 								<img src='{{ site.staticContentUrl }}products/{{ product.thumbnail }}' class='img-responsive'/>
