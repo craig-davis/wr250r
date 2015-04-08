@@ -6,10 +6,8 @@ def production():
 	""" Use the actual webserver """
 	
 	env.settings = 'production'
-	env.hosts = ['www.wr250r.com']
+	env.hosts = ['wr250r.com']
 	env.user = 'ubuntu'
-	env.path = '/home/ubuntu/sites/wr250r'
-	env.virtualhost_path = env.path
 
 def deploy():
 	""" Deploy the code """
