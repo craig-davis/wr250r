@@ -22,3 +22,5 @@ This is by far the most popular tire setup for the WR250R. The [Pirelli MT21 fro
 
 Not as common, but increasing in popularity, the Mitas C16 (90/90R-21) and C17 (100/100R-18) have been known to perform very well on both the street and the dirt.
 
+{{!-- Shinko Trail Master 705 ? --}}
+

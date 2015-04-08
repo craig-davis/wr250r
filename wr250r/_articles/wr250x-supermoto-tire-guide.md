@@ -24,3 +24,5 @@ https://scontent-sin.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/10986930_102064477492977
 
 Foobar
 
+{% include footer-ad.html %}
+
