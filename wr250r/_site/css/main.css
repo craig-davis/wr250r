@@ -118,7 +118,8 @@ ol {
           text-align: left; }
 
 .page-sidebar {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  padding-right: 0px; }
   .page-sidebar .popular h1 {
     font-size: 18px; }
   .page-sidebar .popular ul {

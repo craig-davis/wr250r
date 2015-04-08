@@ -2,6 +2,7 @@
 title: Suspension Adjustment Guide
 popular: true
 sort: 3
+source: http://advrider.com/forums/showpost.php?p=26478211&postcount=32
 ---
 
 This is rough guide on adjusting the suspension of the WR250R. Everything here translates to the WR250X, except for noted items.
@@ -24,6 +25,10 @@ This is rough guide on adjusting the suspension of the WR250R. Everything here t
 
 
 ## Adjusting Preload Rings
+
+<a href='{{ site.staticContentUrl }}articles/rear-shock-rings.jpg' data-featherlight='{{ site.staticContentUrl }}articles/rear-shock-rings.jpg' target='_blank'>
+	<img src='{{ site.staticContentUrl }}articles/rear-shock-rings.jpg' width='200px' align='right'/>
+</a>
 
 1. To adjust the preload rings on the top of the rear shock assembly you'll want a long flat head screw driver and a rubber mallet (hammer will work too, but be gentle)
 2. From the exhaust side of the bike, slip the flat-head screw driver into the frame at the rear shock and rest it in one of the grooves on the upper preload rings. This is the lock ring that keeps things from spinning while riding. It will be semi-tight.
