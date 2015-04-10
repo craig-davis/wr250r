@@ -36,8 +36,8 @@ layout: default
 					
 					<div class='col-md-6 product-images'>
 						{% for image in page.images %}
-							<a href='{{ site.staticContentUrl }}products/{{ image }}' class='image-thumb' data-featherlight='{{ site.staticContentUrl }}products/{{ image }}'>
-								<img src='{{ site.staticContentUrl }}products/{{ image }}' class='img-responsive' alt='Yamaha WR250R {{ page.title }}'/>
+							<a href='{{ site.STATIC }}products/{{ image }}' class='image-thumb' data-featherlight='{{ site.STATIC }}products/{{ image }}'>
+								<img src='{{ site.STATIC }}products/{{ image }}' class='img-responsive' alt='Yamaha WR250R {{ page.title }}'/>
 							</a>
 						{% endfor %}
 					</div>

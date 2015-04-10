@@ -19,6 +19,11 @@ h6 {
   font-weight: bold;
   margin: 0px 0px 15px 0px; }
 
+.img-right {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px; }
+
 .btn-default {
   color: #555; }
 
