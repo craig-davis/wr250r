@@ -13,7 +13,7 @@ sort: 4
 On a level surface, put the bike up on a stand where the rear wheel is elevated and spinning freely. Then, spin the rear wheel until you find the point in which the chain is the tighest. {{!-- TODO Elaborate --}}
 
 <a href='{{ site.STATIC }}articles/chain-slack-measurement.jpg' data-featherlight='{{ site.STATIC }}articles/chain-slack-measurement.jpg' target='_blank'>
-	<img src='{{ site.STATIC }}articles/chain-slack-measurement.jpg' align='right' width='200px'/>
+	<img src='{{ site.STATIC }}articles/chain-slack-measurement.jpg' class='img-right' width='200px'/>
 </a>
 
 To check the slack, find the intermediate position between the chain tensioner and the chain support bolt. At this point, measure the distane the chain is able to move by pushing the chain up, and then down. This is demonstrated in the diagram to the right.
@@ -28,7 +28,7 @@ The total distance from the center of the chain link at the top most point, the 
 ## Adjusting The Chain
 
 <a href='{{ site.STATIC }}articles/chain-adjustment.jpg' data-featherlight='{{ site.STATIC }}articles/chain-adjustment.jpg' target='_blank'>
-	<img src='{{ site.STATIC }}articles/chain-adjustment.jpg' align='right' width='250px'/>
+	<img src='{{ site.STATIC }}articles/chain-adjustment.jpg' class='img-right' width='250px'/>
 </a>
 
 Start by loosening the main axle nut (**1**) and both lock nuts (**2**). Now you will be able to turn the drive chain puller bolt (**3**) in to loosen the chain (**a**), or out to tighten the chain (**b**). It is very important you do this the same amount on both sides, to ensure proper alignment. As you make adjustments and take measurements, make sure the rear wheel is constantly pushed as far forward as it will go, to make sure there is no space between the head of the drive chain puller bolt and the swingarm end plates (square blocks around the axle bolt).

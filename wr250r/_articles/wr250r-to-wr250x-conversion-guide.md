@@ -4,7 +4,7 @@ popular: true
 sort: 2
 ---
 
-<a href='' featherlight='' target='_blank'>
+<a href='{{ site.STATIC }}articles/supermoto-conversion.jpg' featherlight='{{ site.STATIC }}articles/supermoto-conversion.jpg' target='_blank'>
 	<img src='{{ site.STATIC }}articles/supermoto-conversion.jpg' class='img-rounded img-right' width='375px'/>
 </a>
 
