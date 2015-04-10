@@ -3,7 +3,7 @@ title: Common Torque Specs
 sort: 6
 ---
 
-<table class='table table-striped data-table'>
+<table class='table table-striped data-table' style='min-width:650px'>
 	<thead>
 		<tr>
 			<th>Part</th>
