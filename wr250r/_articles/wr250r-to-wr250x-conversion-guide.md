@@ -4,7 +4,7 @@ popular: true
 sort: 2
 ---
 
-<a href='{{ site.STATIC }}articles/supermoto-conversion.jpg' featherlight='{{ site.STATIC }}articles/supermoto-conversion.jpg' target='_blank'>
+<a href='{{ site.STATIC }}articles/supermoto-conversion.jpg' data-featherlight='{{ site.STATIC }}articles/supermoto-conversion.jpg' target='_blank'>
 	<img src='{{ site.STATIC }}articles/supermoto-conversion.jpg' class='img-responsive img-rounded img-right' width='375px'/>
 </a>
 
@@ -34,7 +34,7 @@ Overall, you have a few options to handle the rotor size difference when using O
 2. Same as above, except get a second front brake lever and brake line, so you can swap the entire thing out when you change wheels.
 3. Buy an EBC 250mm rotor so you can continue to use the existing caliper assembly with the X wheels. (_If someone could confirm this works without a new bracket, that would be great_)
 
-Once you've sorted out your new wheels and brake rotor sizing, you'll notice that the R model kick stand is a bit too long and the bike doesn't lean over quite as much as it used to. This isn't a required change, but I was more comfortable one the bike was leaning over further and had less of a chance of getting knocked the other way. The WR250R kickstand is 13.5" long (part # 3D7-27311-01-00), and the WR250X kickstand is 12" long (part # 3D7-27311-11-00). I ordered a new kickstand and was ready to go, but have heard stories of other people cutting and extending / shortening their kickstands.
+Once you've sorted out your new wheels and brake rotor sizing, you'll notice that the R model kickstand is a bit too long and the bike doesn't lean over quite as much as it used to. This isn't a required change, but I was more comfortable one the bike was leaning over further and had less of a chance of getting knocked the other way. The WR250R kickstand is 13.5" long (part # 3D7-27311-01-00), and the WR250X kickstand is 12" long (part # 3D7-27311-11-00). I ordered a new kickstand and was ready to go, but have heard stories of other people cutting and extending / shortening their kickstands.
 
 Now get out and enjoy your new supermoto!
 

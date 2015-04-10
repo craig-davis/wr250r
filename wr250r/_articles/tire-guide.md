@@ -2,6 +2,7 @@
 title: Tire Guide
 popular: true
 sort: 5
+notes: http://wr250rforum.forumotion.com/t1638-the-tire-thread
 ---
 
 ## Pirelli MT21 Front and Dunlop D606 Rear (Recommended)
