@@ -5,7 +5,7 @@ sort: 2
 ---
 
 <a href='{{ site.STATIC }}articles/supermoto-conversion.jpg' featherlight='{{ site.STATIC }}articles/supermoto-conversion.jpg' target='_blank'>
-	<img src='{{ site.STATIC }}articles/supermoto-conversion.jpg' class='img-rounded img-right' width='375px'/>
+	<img src='{{ site.STATIC }}articles/supermoto-conversion.jpg' class='img-responsive img-rounded img-right' width='375px'/>
 </a>
 
 Converting between the WR250R and the WR250X is a fairly straightforward process. Other than the wheels and tires, the <a href='/articles/differences-between-the-wr250r-and-wr250x.html'>differences between the bikes (read more)</a> are minimal. If you are looking to install aftermarket supermoto wheels such as the set from <a href='http://www.warp9racing.com/sm_wheels_yamaha.html' target='_blank'>Warp 9</a>, you might be able to skip some of the notes below.
