@@ -5,6 +5,8 @@ sort: 5
 notes: http://wr250rforum.forumotion.com/t1638-the-tire-thread
 ---
 
+You can also view the [WR250X tire guide](/articles/wr250x-tire-guide.html)
+
 ## Pirelli MT21 Front and Dunlop D606 Rear (Recommended)
 
 <a href='{{ site.STATIC }}articles/wr250r-d606-mt21.jpg' data-featherlight='{{ site.STATIC }}articles/wr250r-d606-mt21.jpg'>
@@ -23,5 +25,12 @@ This is by far the most popular tire setup for the WR250R. The [Pirelli MT21 fro
 
 This primarily dirt setup is increasing in popularity. The Mitas C16 (90/90R-21) and C17 (100/100R-18) have been known to perform very well on both the street and the dirt.
 
-{{!-- Shinko Trail Master 705 ? --}}
+<br/>
+
+## Shinko 705 DS Front and Rear
+
+_Coming Soon!_ {{!-- Desc [amazon](http://www.amazon.com/dp/B0026UEILO/) --}}
+
+
+_Is this list missing your favorite tires? [Let us know!](/contribute/)_
 
