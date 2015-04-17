@@ -26,14 +26,16 @@ layout: default
 				{% assign filteredProducts = site.products | where:"category",page.categoryFilter | sort: "sort" %}
 				{% for product in filteredProducts %}
 					
-					<div class='tile-outer col-md-4 col-lg-4'>
-						<div class='tile-inner'>
-							<a href='{{ product.url }}'>
-								<img src='{{ site.STATIC }}products/{{ product.thumbnail }}' class='img-responsive'/>
-								<div class='title'>{{ product.title }}</div>
-							</a>
+					{% unless product.draft %}
+						<div class='tile-outer col-md-4 col-lg-4'>
+							<div class='tile-inner'>
+								<a href='{{ product.url }}'>
+									<img src='{{ site.STATIC }}products/{{ product.thumbnail }}' class='img-responsive'/>
+									<div class='title'>{{ product.title }}</div>
+								</a>
+							</div>
 						</div>
-					</div>
+					{% endunless %}
 					
 				{% endfor %}
 			</div>
