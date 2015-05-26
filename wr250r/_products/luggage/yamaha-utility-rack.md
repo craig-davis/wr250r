@@ -1,12 +1,11 @@
 ---
-title: Yamaha Utility Rack
+title: Yamaha Rear Fender Utility Rack
 category: luggage
-productUrl: http://www.amazon.com/dp/B005LD2M70/
-thumbnail: 410ZxGCkTmL.jpg
+productUrl: http://www.amazon.com/dp/B005LD2M70
+thumbnail: luggage/yamaha-rack.jpg
 images:
-  - 410ZxGCkTmL.jpg
-sort: 6
-draft: true
+  - luggage/yamaha-rack.jpg
+sort: 7
 ---
 
 This versatile rack is required to securely mount the WR250R /WR250X rear fender sport bag and/or side bag (all sold separately). For on-road use only. Weight capacity is 6.6 pounds.

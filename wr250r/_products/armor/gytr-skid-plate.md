@@ -1,0 +1,12 @@
+---
+title: GYTR Aluminum Skid Plate
+category: armor
+productUrl: http://www.amazon.com/dp/B00MEDR12Q/
+thumbnail: armor/gytr.jpg
+images:
+  - armor/gytr.jpg
+sort: 1
+---
+
+This plate helps glide your bike over obstacles and provides added protection for the lower frame and engine components.
+

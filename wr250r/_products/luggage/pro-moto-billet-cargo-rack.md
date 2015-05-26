@@ -2,9 +2,9 @@
 title: Pro Moto Billet Cargo Rack
 category: luggage
 productUrl: http://www.amazon.com/dp/B008KT3R6M/
-thumbnail: j2990jjlr32j5kHH-0.jpg
+thumbnail: luggage/promoto.jpg
 images:
-  - j2990jjlr32j5kHH-1.jpg
+  - luggage/promoto.jpg
 sort: 1
 popular: true
 ---
