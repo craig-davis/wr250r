@@ -6,8 +6,8 @@ description: WR250R.com is the unofficial WR250R and WR250X owners guide. Here y
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wr250r.com" # the base hostname & protocol for your site
 amazonTag: "wr250rcom-20"
-STATIC: "https://s3.amazonaws.com/wr250r-com/images/"
-#STATIC: "/static/images/"
+#STATIC: "https://s3.amazonaws.com/wr250r-com/images/"
+STATIC: "/static/images/"
 
 # Build settings
 markdown: kramdown

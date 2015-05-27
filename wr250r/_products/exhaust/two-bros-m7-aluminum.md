@@ -1,7 +1,7 @@
 ---
 title: Two Brothers M7 Aluminum Slip-On
 category: exhaust
-productUrl: http://www.amazon.com/dp/B002S4VZLO/
+amazonUrl: http://www.amazon.com/dp/B002S4VZLO/
 thumbnail: eioEdjiAYJxz3AzZE-0.jpg
 images:
   - eioEdjiAYJxz3AzZE-1.jpg

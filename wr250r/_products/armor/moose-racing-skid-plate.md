@@ -1,7 +1,7 @@
 ---
 title: Moose Racing Pro Skid Plate
 category: armor
-productUrl: http://www.amazon.com/dp/B0068ESK36/
+amazonUrl: http://www.amazon.com/dp/B0068ESK36/
 thumbnail: armor/moose-racing.jpg
 images:
   - armor/moose-racing.jpg

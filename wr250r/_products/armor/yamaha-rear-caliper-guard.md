@@ -1,7 +1,7 @@
 ---
 title: Yamaha Billet Rear Brake Caliper Guard
 category: armor
-productUrl: http://www.amazon.com/dp/B005C5E6Z8/
+amazonUrl: http://www.amazon.com/dp/B005C5E6Z8/
 thumbnail: armor/gytr-rear-brake.jpg
 images:
   - armor/gytr-rear-brake.jpg

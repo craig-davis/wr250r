@@ -1,7 +1,7 @@
 ---
 title: Wolfman Expedition Tank Bag
 category: luggage
-productUrl: http://www.amazon.com/dp/B005HEJ20S/
+amazonUrl: http://www.amazon.com/dp/B005HEJ20S/
 thumbnail: luggage/wolfman-expedition-tank.jpg
 images:
   - luggage/wolfman-expedition-tank.jpg

@@ -1,7 +1,7 @@
 ---
 title: Dynojet Power Commander V
 category: electrical
-productUrl: http://www.amazon.com/dp/B008ACK3ES/
+amazonUrl: http://www.amazon.com/dp/B008ACK3ES/
 thumbnail: electrical/pcv.jpg
 images:
   - electrical/pcv.jpg

@@ -1,7 +1,7 @@
 ---
 title: Graves WORKS Full System
 category: exhaust
-productUrl: http://www.amazon.com/dp/B005IGV7IU/
+amazonUrl: http://www.amazon.com/dp/B005IGV7IU/
 thumbnail: SGfrr8zqkdWaqXscY-0.jpg
 images:
   - SGfrr8zqkdWaqXscY-1.jpg

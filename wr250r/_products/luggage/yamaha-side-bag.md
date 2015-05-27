@@ -1,7 +1,7 @@
 ---
 title: Yamaha Side Bag
 category: luggage
-productUrl: http://www.amazon.com/dp/B005LD4F8O/
+amazonUrl: http://www.amazon.com/dp/B005LD4F8O/
 thumbnail: luggage/yamaha-side.jpg
 images:
   - luggage/yamaha-side.jpg

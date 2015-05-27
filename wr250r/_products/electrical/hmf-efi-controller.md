@@ -1,7 +1,7 @@
 ---
 title: HMF EFI Optimizer Controller
 category: electrical
-productUrl: http://www.amazon.com/dp/B00FT2NGL4/
+amazonUrl: http://www.amazon.com/dp/B00FT2NGL4/
 thumbnail: electrical/hmf.jpg
 images:
   - electrical/hmf.jpg

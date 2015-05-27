@@ -1,7 +1,7 @@
 ---
 title: Yamaha Billet Front Brake Caliper Guard
 category: armor
-productUrl: http://www.amazon.com/dp/B005C5E69E/
+amazonUrl: http://www.amazon.com/dp/B005C5E69E/
 thumbnail: armor/gytr-front-caliper.jpg
 images:
   - armor/gytr-front-caliper.jpg

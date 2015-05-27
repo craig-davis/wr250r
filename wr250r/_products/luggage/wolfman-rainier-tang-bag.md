@@ -1,7 +1,7 @@
 ---
 title: Wolfman Rainier Tank Bag
 category: luggage
-productUrl: http://www.amazon.com/dp/B005HEJ1Z4
+amazonUrl: http://www.amazon.com/dp/B005HEJ1Z4/
 thumbnail: luggage/wolfman-rainier-tank.jpg
 images:
   - luggage/wolfman-rainier-tank.jpg

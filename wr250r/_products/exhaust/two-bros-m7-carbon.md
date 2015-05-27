@@ -1,7 +1,7 @@
 ---
 title: Two Brothers M7 Carbon Slip-On
 category: exhaust
-productUrl: http://www.amazon.com/dp/B00AKFQ1LC/
+amazonUrl: http://www.amazon.com/dp/B00AKFQ1LC/
 thumbnail: oQu36pDTv9dicXHjW-0.jpg
 images:
   - oQu36pDTv9dicXHjW-1.jpg

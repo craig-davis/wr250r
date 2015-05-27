@@ -1,7 +1,7 @@
 ---
 title: Yoshimura RS-4 Slip-On
 category: exhaust
-productUrl: http://www.amazon.com/dp/B00AC5J2U2/
+amazonUrl: http://www.amazon.com/dp/B00AC5J2U2/
 thumbnail: zSp5Fpuc3r32j5kHH-0.jpg
 images:
   - zSp5Fpuc3r32j5kHH-1.jpg

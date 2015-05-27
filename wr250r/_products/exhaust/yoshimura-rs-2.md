@@ -1,7 +1,7 @@
 ---
 title: Yoshimura RS-2 Slip-On
 category: exhaust
-productUrl: http://www.amazon.com/dp/B001AWPVXI/
+amazonUrl: http://www.amazon.com/dp/B001AWPVXI/
 thumbnail: qJ7j5B7u97vLtq6DM-0.jpg
 images:
   - qJ7j5B7u97vLtq6DM-1.jpg
