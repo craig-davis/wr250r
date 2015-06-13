@@ -3,6 +3,9 @@
 The unofficial WR250R and WR250X owners guide
 
 
+# Running Locally
+``` bundle exec jekyll serve ```
+
 # Image Rules
 
 * Primary images must be 800x600 or smaller (4:3)

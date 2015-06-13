@@ -1,5 +1,5 @@
-*.swp
 .DS_Store
+*.swp
 *.pyc
 _site/
 .sass-cache
