@@ -1,6 +1,6 @@
-# WR250R.com
+# WR450F.com
 
-The unofficial WR250R and WR250X owners guide
+The unofficial WR450F owners guide
 
 
 # Running Locally
