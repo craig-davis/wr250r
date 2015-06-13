@@ -1,0 +1,36 @@
+# Site settings
+title: WR250R.com
+subTitle: The unofficial WR250R and WR250X owners guide
+email: hello@crath.com
+description: WR250R.com is the unofficial WR250R and WR250X owners guide. Here you'll find helpful guides, tutorial videos, and the latest aftermarket and OEM parts.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wr250r.com" # the base hostname & protocol for your site
+amazonTag: "wr250rcom-20"
+STATIC: "/static/images/"
+#STATIC: "https://s3.amazonaws.com/wr250r-com/images/"
+
+# Build settings
+markdown: kramdown
+
+# Define Collections
+collections:
+  products:
+    output: true
+  articles:
+    output: true
+
+# Site Variables
+defaults:
+  -
+    scope:
+      path: ""
+      type: "products"
+    values:
+      layout: product
+  -
+    scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: article
+    
