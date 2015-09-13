@@ -3,4 +3,5 @@
 *.pyc
 _site/
 .sass-cache
+tmp/
 
