@@ -5,7 +5,6 @@ amazonUrl: http://www.amazon.com/dp/B001CDA8YC/
 thumbnail: Xuu7QBhtpxuNogx7C-0.jpg
 images:
   - Xuu7QBhtpxuNogx7C-1.jpg
-popular: true
 sort: 2
 ---
 
