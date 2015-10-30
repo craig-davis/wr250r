@@ -1,7 +1,7 @@
 ---
 title: Moose Skid Plate
 category: armor
-amazonUrl: http://www.amazon.com/dp/B002OKC6QU/
+amazonUrl: http://www.amazon.com/dp/B002OKC6QU/?afp=1
 thumbnail: armor/moose.jpg
 images:
   - armor/moose.jpg

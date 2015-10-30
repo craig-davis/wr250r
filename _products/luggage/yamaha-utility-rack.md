@@ -1,7 +1,7 @@
 ---
 title: Yamaha Rear Fender Utility Rack
 category: luggage
-amazonUrl: http://www.amazon.com/dp/B005LD2M70/
+amazonUrl: http://www.amazon.com/dp/B005LD2M70/?afp=1
 thumbnail: luggage/yamaha-rack.jpg
 images:
   - luggage/yamaha-rack.jpg

@@ -7,7 +7,6 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wr250r.com" # the base hostname & protocol for your site
 amazonTag: "wr250rcom-20"
 STATIC: "/static/images/"
-#STATIC: "https://s3.amazonaws.com/wr250r-com/images/"
 
 # Build settings
 markdown: kramdown

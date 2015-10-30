@@ -1,7 +1,7 @@
 ---
 title: Dunlop D606 (Front)
 category: tires
-amazonUrl: http://www.amazon.com/dp/B000GRSH84/
+amazonUrl: http://www.amazon.com/dp/B000GRSH84/?afp=1
 thumbnail: ATGcsGv8f6c5vTKpD-0.jpg
 images:
   - ATGcsGv8f6c5vTKpD-1.jpg

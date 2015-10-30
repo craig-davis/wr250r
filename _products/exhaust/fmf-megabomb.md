@@ -1,7 +1,7 @@
 ---
 title: FMF MegaBomb Header
 category: exhaust
-amazonUrl: http://www.amazon.com/dp/B0031BCLQ6/
+amazonUrl: http://www.amazon.com/dp/B0031BCLQ6/?afp=1
 thumbnail: sGohwRSXX8EmxSQ7G-0.jpg
 images:
   - sGohwRSXX8EmxSQ7G-1.jpg

@@ -1,7 +1,7 @@
 ---
 title: Avon Distanzia (Front)
 category: tires
-amazonUrl: http://www.amazon.com/dp/B001CD6PJY/
+amazonUrl: http://www.amazon.com/dp/B001CD6PJY/?afp=1
 thumbnail: tires/distanzia-front.jpg
 images:
   - tires/distanzia-front.jpg

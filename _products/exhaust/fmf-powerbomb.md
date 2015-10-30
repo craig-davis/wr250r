@@ -1,7 +1,7 @@
 ---
 title: FMF PowerBomb Header
 category: exhaust
-amazonUrl: http://www.amazon.com/dp/B001GS3F34/
+amazonUrl: http://www.amazon.com/dp/B001GS3F34/?afp=1
 thumbnail: MGf5uxpcE8vudQyMw-0.jpg
 images:
   - MGf5uxpcE8vudQyMw-1.jpg

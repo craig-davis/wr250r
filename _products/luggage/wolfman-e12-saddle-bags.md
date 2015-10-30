@@ -1,7 +1,7 @@
 ---
 title: Wolfman E-12 Saddle Bags
 category: luggage
-amazonUrl: http://www.amazon.com/dp/B007X5PQE0/
+amazonUrl: http://www.amazon.com/dp/B007X5PQE0/?afp=1
 thumbnail: luggage/wolfman-e12.jpg
 images:
   - luggage/wolfman-e12.jpg

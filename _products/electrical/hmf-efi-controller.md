@@ -1,7 +1,7 @@
 ---
 title: HMF EFI Optimizer Controller
 category: electrical
-amazonUrl: http://www.amazon.com/dp/B00FT2NGL4/
+amazonUrl: http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=wr250r+hmf+efi+optimizer+controller
 thumbnail: electrical/hmf.jpg
 images:
   - electrical/hmf.jpg

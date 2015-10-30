@@ -1,7 +1,7 @@
 ---
 title: FMF Q4 Slip-On
 category: exhaust
-amazonUrl: http://www.amazon.com/dp/B0018EQZJC/
+amazonUrl: http://www.amazon.com/dp/B0018EQZJC/?afp=1
 thumbnail: 63DPwj3wPPMaeWory-0.jpg
 images:
   - 63DPwj3wPPMaeWory-1.jpg

@@ -1,7 +1,7 @@
 ---
 title: GYTR Aluminum Skid Plate
 category: armor
-amazonUrl: http://www.amazon.com/dp/B00MEDR12Q/
+amazonUrl: http://www.amazon.com/dp/B00MEDR12Q/?afp=1
 thumbnail: armor/gytr.jpg
 images:
   - armor/gytr.jpg

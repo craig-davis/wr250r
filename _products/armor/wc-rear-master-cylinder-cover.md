@@ -1,7 +1,7 @@
 ---
 title: WC Rear Master Cylinder Cover
 category: armor
-amazonUrl: http://www.amazon.com/dp/B000GU0JV4/
+amazonUrl: http://www.amazon.com/dp/B000GU0JV4/?afp=1
 thumbnail: armor/wc-cover.jpg
 images:
   - armor/wc-cover.jpg

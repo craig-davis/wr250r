@@ -1,7 +1,7 @@
 ---
 title: Wolfman Express Tank Bag
 category: luggage
-amazonUrl: http://www.amazon.com/dp/B00BGOK73Y/
+amazonUrl: http://www.amazon.com/dp/B00BGOK73Y/?afp=1
 thumbnail: luggage/wolfman-express-tank.jpg
 images:
   - luggage/wolfman-express-tank.jpg
