@@ -2,6 +2,7 @@
 title: Dynojet Power Commander V
 category: electrical
 amazonUrl: http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=wr250r+dynojet+power+commander+v
+youtubeId: GEhri3fvRQY
 thumbnail: electrical/pcv.jpg
 images:
   - electrical/pcv.jpg
