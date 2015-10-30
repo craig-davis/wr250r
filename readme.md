@@ -20,4 +20,5 @@ The unofficial WR250R and WR250X owners guide
 - Add youtube videos to products
 - Finish tire guides
 - Add "Missing a product?" button
+- Move popular products module to bottom of the page too?
 

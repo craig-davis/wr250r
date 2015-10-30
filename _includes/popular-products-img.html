@@ -1,4 +1,4 @@
-<h1>Popular Products</h1>
+<h1>Popular Add-ons</h1>
 <ul>
 	{% for product in site.products %}
 		{% if product.popular %}
@@ -10,4 +10,9 @@
 		{% endif %}
 	{% endfor %}
 </ul>
+
+<br/>
+<div class='text-center'>
+	<a href='/products' class='btn btn-default btn-sm'>View All Add-ons</a>
+</div>
 
