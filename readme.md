@@ -4,7 +4,7 @@ The unofficial WR250R and WR250X owners guide
 
 
 # Running Locally
-``` bundle exec jekyll serve ```
+``` ./run.sh ```
 
 # Image Rules
 
