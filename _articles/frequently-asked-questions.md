@@ -6,7 +6,16 @@ sort: 1
 
 Here is a list of the questions we most frequently hear. Performance mods, best exhaust, and so on. Let us know if we missed anything!
 
+- [What are the best free performance mods?](#faq1)
+- [What are the best tires for the WR250R?](#faq2)
+- [What are the best tires for the WR250X?](#faq3)
+- [What is the best exhaust package?](#faq4)
+- [Are there any common issues I should worry about?](#faq5)
+
+
 ---
+
+<a name='faq1'></a>
 
 ## What are the best free performance mods?
 
@@ -14,11 +23,15 @@ Most WR owners like to start by removing the airbox flapper, the ais system, and
 
 ---
 
+<a name='faq2'></a>
+
 ## What are the best tires for the WR250R?
 
 The [Pirelli MT21 front tire](/products/tires/mt21-front.html) and [Dunlop D606 rear tire](/products/tires/d606-rear.html) are generally regarded as the best all around dual sport tire setup.
 
 ---
+
+<a name='faq3'></a>
 
 ## What are the best tires for the WR250X?
 
@@ -26,11 +39,15 @@ The Avon Distanzia tires ([front](/products/tires/distanzia-front.html) and [rea
 
 ---
 
+<a name='faq4'></a>
+
 ## What is the best exhaust package?
 
 The [FMF Q4 exhaust](/products/exhaust/fmf-q4.html) paired with the [FMF Megabomb header](/products/exhaust/fmf-megabomb.html) will give you the best performance package and sound upgrade for your money.
 
 ---
+
+<a name='faq5'></a>
 
 ## Are there any common issues I should worry about?
 
