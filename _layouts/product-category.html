@@ -23,7 +23,7 @@ layout: default
 			</div>
 			
 			<div class='tile-container'>
-				{% assign filteredProducts = site.products | where:"category",page.categoryFilter | sort: "sort" %}
+                {% assign filteredProducts = (site.products | where: "category", page.categoryFilter ) %}
 				{% for product in filteredProducts %}
 					
 					{% unless product.draft %}

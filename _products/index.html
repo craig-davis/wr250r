@@ -1,27 +1,6 @@
 ---
 title: Popular Add-ons
 layout: default
-categories:
-  -
-    url: exhaust/
-    title: Exhaust
-    image: zSp5Fpuc3r32j5kHH-0.jpg
-  -
-    url: electrical/
-    title: Electrical
-    image: electrical/pcv.jpg
-  -
-    url: tires/
-    title: Tires
-    image: QxEoxmBLB8KyZHbHj-0.jpg
-  -
-    url: luggage/
-    title: Luggage
-    image: luggage/promoto.jpg
-  -
-    url: armor/
-    title: Armor
-    image: armor/moose-racing.jpg
 ---
 	
 <div class='container-fluid container-gray page-products-index'>
@@ -44,7 +23,7 @@ categories:
 			</div>
 			
 			<div class='tile-container'>
-				{% for category in page.categories %}
+				{% for category in site.data.product_categories %}
 					
 					<div class='col-md-4 col-lg-4 tile-outer'>
 						<div class='tile-inner'>

@@ -15,7 +15,7 @@ sort: 6
 		</tr>
 	</thead>
 	<tbody>
-		{% for spec in site.data.common-torque-specs %}
+		{% for spec in site.data.common_torque_specs %}
 			<tr>
 				<td>{{ spec.part }}</td>
 				<td>{{ spec.nm }} Nm</td>

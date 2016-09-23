@@ -23,7 +23,7 @@ draft: true
 					<h1>Helpful Articles</h1>
 					
 					<ul>
-						{% assign sortedArticles = site.articles | sort: "sort" %}
+						{% assign sortedArticles = site.articles %}
 						{% for article in sortedArticles %}
 							{% unless article.draft %}
 								<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
