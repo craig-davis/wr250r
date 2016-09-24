@@ -3,7 +3,7 @@
 	{% for article in site.articles %}
 		{% if article.popular %}
 			{% unless article.draft %}
-				<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+				<li><a href='{{ article.url | remove:'.html' }}'>{{ article.title }}</a></li>
 			{% endunless %}
 		{% endif %}
 	{% endfor %}

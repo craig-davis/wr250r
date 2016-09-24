@@ -1,5 +1,6 @@
 ---
 title: Airbox Flapper Mod
+youtubeId: WFTOrxg_B6w
 ---
 
 The airbox flapper is a small door on the top of the airbox which opens at higher RPMs to allow more air to flow in. It was originally added for emissions reasons, and removing it gives your bike a nice boost in throttle response time, and a little extra power. Here are the steps you need to take in order to remove the flapper, followed by a video tutorial.

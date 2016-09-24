@@ -23,10 +23,9 @@ draft: true
 					<h1>Helpful Articles</h1>
 					
 					<ul>
-						{% assign sortedArticles = site.articles %}
-						{% for article in sortedArticles %}
+						{% for article in site.articles %}
 							{% unless article.draft %}
-								<li><a href='{{ article.url }}'>{{ article.title }}</a></li>
+								<li><a href='{{ article.url | remove:'.html' }}'>{{ article.title }}</a></li>
 							{% endunless %}
 						{% endfor %}
 					</ul>
