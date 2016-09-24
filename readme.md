@@ -11,7 +11,6 @@ The unofficial WR250R and WR250X owners guide
 
 # Tasks
 
-- Link to FB Group: https://www.facebook.com/groups/WR250XnR/
 - Add more text content to each product
 - Finish tire guides
 - Move popular products module to bottom of the page too?
