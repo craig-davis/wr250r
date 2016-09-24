@@ -3,7 +3,7 @@ title: WR250X Tire Guide
 sort: 7
 ---
 
-You can also view the [WR250R tire guide](/articles/tire-guide.html)
+You can also view the [WR250R tire guide](/articles/tire-guide)
 
 ## Avon Distanzia (Recommended)
 
@@ -11,7 +11,7 @@ You can also view the [WR250R tire guide](/articles/tire-guide.html)
 	<img src='{{ site.STATIC }}articles/wr250x-avon-distanzia.jpg' class='img-responsive img-rounded'/>
 </a>
 
-The Distanzia tires from Avon ([front](/products/tires/distanzia-front.html) and [rear](/products/tires/distanzia-rear.html)) are an easy win for anyone considering doing a bit of dirt on their WR250X. The tires offer great traction on the street, while doing surprisingly well offroad. If you're planning on going to the track, you might also want to check out their supermoto compound option!
+The Distanzia tires from Avon ([front](/products/tires/distanzia-front) and [rear](/products/tires/distanzia-rear)) are an easy win for anyone considering doing a bit of dirt on their WR250X. The tires offer great traction on the street, while doing surprisingly well offroad. If you're planning on going to the track, you might also want to check out their supermoto compound option!
 
 <br/>
 

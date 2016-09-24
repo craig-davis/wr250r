@@ -6,7 +6,7 @@ sort: 3
 
 The WR250R and WR250X are almost idential bikes, with the exception of the wheels and tires. Just about everything on this website applies to both models, unless noted otherwise.
 
-Listed below are the primary differences between the two models. These differences usually come up when you try to convert <a href='/articles/wr250r-to-wr250x-conversion-guide.html'>from one model to another</a>.
+Listed below are the primary differences between the two models. These differences usually come up when you try to convert <a href='/articles/wr250r-to-wr250x-conversion-guide'>from one model to another</a>.
 
 <table class='table table-striped data-table'>
 	<thead>

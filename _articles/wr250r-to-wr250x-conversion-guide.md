@@ -8,7 +8,7 @@ sort: 2
 	<img src='{{ site.STATIC }}articles/supermoto-conversion.jpg' class='img-responsive img-rounded img-right' width='375px'/>
 </a>
 
-Converting between the WR250R and the WR250X is a fairly straightforward process. Other than the wheels and tires, the <a href='/articles/differences-between-the-wr250r-and-wr250x.html'>differences between the bikes (read more)</a> are minimal. If you are looking to install aftermarket supermoto wheels such as the set from <a href='http://www.warp9racing.com/sm_wheels_yamaha.html' target='_blank'>Warp 9</a>, you might be able to skip some of the notes below.
+Converting between the WR250R and the WR250X is a fairly straightforward process. Other than the wheels and tires, the <a href='/articles/differences-between-the-wr250r-and-wr250x'>differences between the bikes (read more)</a> are minimal. If you are looking to install aftermarket supermoto wheels such as the set from <a href='http://www.warp9racing.com/sm_wheels_yamaha.html' target='_blank'>Warp 9</a>, you might be able to skip some of the notes below.
 
 One of the primary differences to note other than the wheel size is the front brake assembly. While the wheel hubs are the same between the bikes, the front caliper and rotor are bigger on the X model (R rotor is 250mm, X rotor is 298mm). The X model also has an extra caliper bracket which bolts to the fork. You can see the differences between the two brake assemblys in these diagrams.
 

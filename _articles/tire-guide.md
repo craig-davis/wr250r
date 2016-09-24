@@ -5,7 +5,7 @@ sort: 5
 notes: http://wr250rforum.forumotion.com/t1638-the-tire-thread
 ---
 
-You can also view the [WR250X tire guide](/articles/wr250x-tire-guide.html)
+You can also view the [WR250X tire guide](/articles/wr250x-tire-guide)
 
 ## Pirelli MT21 Front and Dunlop D606 Rear (Recommended)
 
@@ -13,7 +13,7 @@ You can also view the [WR250X tire guide](/articles/wr250x-tire-guide.html)
 	<img src='{{ site.STATIC }}articles/wr250r-d606-mt21.jpg' class='img-responsive img-rounded'/>
 </a>
 
-This is by far the most popular tire setup for the WR250R. The [Pirelli MT21 front tire](/products/tires/mt21-front.html) (90/90R-21) and [Dunlop D606 rear tire](/products/tires/d606-rear.html) (120/90R-18) do great both on and off the street, and they last quite a long time. Riders have reported getting about 5,000 miles (8,000 kms) out of their MT21 front tires and 3,500 miles (5,600 kms) out of their D606 rears.
+This is by far the most popular tire setup for the WR250R. The [Pirelli MT21 front tire](/products/tires/mt21-front) (90/90R-21) and [Dunlop D606 rear tire](/products/tires/d606-rear) (120/90R-18) do great both on and off the street, and they last quite a long time. Riders have reported getting about 5,000 miles (8,000 kms) out of their MT21 front tires and 3,500 miles (5,600 kms) out of their D606 rears.
 
 <br/>
 

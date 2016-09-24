@@ -3,7 +3,7 @@
 	{% for product in site.products %}
 		{% if product.popular %}
 			<li>
-				<a href='{{ product.url }}' title='{{ product.title }}' class='text-center'>
+				<a href='{{ product.url | remove:'.html' }}' title='{{ product.title }}' class='text-center'>
 					<img src='{{ site.STATIC }}products/{{ product.thumbnail }}' style='width:75%' title='{{ product.title }}'/>
 				</a>
 			</li>
