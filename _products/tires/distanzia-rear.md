@@ -4,6 +4,7 @@ category: tires
 amazonUrl: http://www.amazon.com/dp/B000WJJMEE/?afp=1
 youtubeId: xn2ztDjA4yc
 thumbnail: tires/distanzia-rear.jpg
+ogImage: products/tires/distanzia-rear.jpg
 images:
   - tires/distanzia-rear.jpg
 sort: 7

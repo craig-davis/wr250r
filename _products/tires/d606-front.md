@@ -4,6 +4,7 @@ category: tires
 amazonUrl: http://www.amazon.com/dp/B000GRSH84/?afp=1
 youtubeId: mRkop5Go-0o
 thumbnail: ATGcsGv8f6c5vTKpD-0.jpg
+ogImage: products/ATGcsGv8f6c5vTKpD-1.jpg
 images:
   - ATGcsGv8f6c5vTKpD-1.jpg
 sort: 3

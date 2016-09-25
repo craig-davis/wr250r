@@ -4,6 +4,7 @@ category: exhaust
 amazonUrl: http://www.amazon.com/dp/B0018EQZJC/?afp=1
 youtubeId: xK8n_u4_T2k
 thumbnail: 63DPwj3wPPMaeWory-0.jpg
+ogImage: products/63DPwj3wPPMaeWory-1.jpg
 images:
   - 63DPwj3wPPMaeWory-1.jpg
   - 63DPwj3wPPMaeWory-2.jpg

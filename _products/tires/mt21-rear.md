@@ -3,6 +3,7 @@ title: Pirelli MT 21 Rallycross (Rear)
 category: tires
 amazonUrl: http://www.amazon.com/dp/B000GV0YIQ/?afp=1
 thumbnail: y4TxYucdzbrL9dvka-0.jpg
+ogImage: products/y4TxYucdzbrL9dvka-1.jpg
 images:
   - y4TxYucdzbrL9dvka-1.jpg
 sort: 4

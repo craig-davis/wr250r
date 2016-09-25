@@ -4,6 +4,7 @@ category: exhaust
 amazonUrl: http://www.amazon.com/dp/B005IGV7IU/?afp=1
 youtubeId: Wsaba6GBXpc
 thumbnail: SGfrr8zqkdWaqXscY-0.jpg
+ogImage: products/SGfrr8zqkdWaqXscY-1.jpg
 images:
   - SGfrr8zqkdWaqXscY-1.jpg
   - SGfrr8zqkdWaqXscY-2.jpg

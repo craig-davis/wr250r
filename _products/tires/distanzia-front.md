@@ -4,6 +4,7 @@ category: tires
 amazonUrl: http://www.amazon.com/dp/B001CD6PJY/?afp=1
 youtubeId: xn2ztDjA4yc
 thumbnail: tires/distanzia-front.jpg
+ogImage: products/tires/distanzia-front.jpg
 images:
   - tires/distanzia-front.jpg
 sort: 6

@@ -3,6 +3,7 @@ title: Wolfman Expedition Tank Bag
 category: luggage
 amazonUrl: http://www.amazon.com/dp/B005HEJ20S/?afp=1
 thumbnail: luggage/wolfman-expedition-tank.jpg
+ogImage: products/luggage/wolfman-expedition-tank.jpg
 images:
   - luggage/wolfman-expedition-tank.jpg
 sort: 3

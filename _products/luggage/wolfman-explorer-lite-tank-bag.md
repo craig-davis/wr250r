@@ -3,6 +3,7 @@ title: Wolfman Explorer Lite Tank Bag
 category: luggage
 amazonUrl: http://www.amazon.com/dp/B00BGOJ4S8/?afp=1
 thumbnail: luggage/wolfman-explorer-tank.jpg
+ogImage: products/luggage/wolfman-explorer-tank.jpg
 images:
   - luggage/wolfman-explorer-tank.jpg
 sort: 4

@@ -4,6 +4,7 @@ category: electrical
 amazonUrl: http://www.amazon.com/s/ref=nb_sb_noss?field-keywords=wr250r+hmf+efi+optimizer+controller
 youtubeId: UoCPm4geJC4
 thumbnail: electrical/hmf.jpg
+ogImage: products/electrical/hmf.jpg
 images:
   - electrical/hmf.jpg
 sort: 2

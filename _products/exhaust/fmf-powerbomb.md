@@ -4,6 +4,7 @@ category: exhaust
 amazonUrl: http://www.amazon.com/dp/B001GS3F34/?afp=1
 youtubeId: tszjKxbT71A
 thumbnail: MGf5uxpcE8vudQyMw-0.jpg
+ogImage: products/MGf5uxpcE8vudQyMw-1.jpg
 images:
   - MGf5uxpcE8vudQyMw-1.jpg
   - MGf5uxpcE8vudQyMw-2.jpg
