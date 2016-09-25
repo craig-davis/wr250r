@@ -4,6 +4,7 @@ category: exhaust
 amazonUrl: http://www.amazon.com/dp/B00AC5J2U2/?afp=1
 youtubeId: VY3VSJhgzjQ
 thumbnail: zSp5Fpuc3r32j5kHH-0.jpg
+ogImage: products/zSp5Fpuc3r32j5kHH-1.jpg
 images:
   - zSp5Fpuc3r32j5kHH-1.jpg
   - zSp5Fpuc3r32j5kHH-2.jpg
