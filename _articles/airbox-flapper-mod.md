@@ -28,9 +28,3 @@ Now that the flapper opens and closes freely, you can use double sided adhesive 
 
 And that's it! Below is a video explaining each step in detail (along with removing the EXUP device which you can skip).
 
-
-## Video Tutorial
-
-<iframe width='100%' height='500' src='https://www.youtube.com/embed/WFTOrxg_B6w' frameborder='0' allowfullscreen></iframe>
-
-
