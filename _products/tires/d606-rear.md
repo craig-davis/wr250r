@@ -1,7 +1,7 @@
 ---
 title: Dunlop D606 (Rear)
 category: tires
-amazonUrl: http://www.amazon.com/dp/B0038P7RZU/?afp=1
+amazonUrl: http://www.amazon.com/dp/B001KOJ7VI/?afp=1
 youtubeId: mRkop5Go-0o
 thumbnail: QxEoxmBLB8KyZHbHj-0.jpg
 ogImage: products/QxEoxmBLB8KyZHbHj-1.jpg
