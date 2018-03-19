@@ -29,7 +29,11 @@ Listed below are the primary differences between the two models. These differenc
 			<td>80/100-21</td>
 			<td>110/70-17</td>
 		</tr>
-		
+		<tr>
+			<td>Font Hub (inner diameter)</td>
+			<td>118mm</td>
+			<td>132mm</td>
+		</tr>
 		<tr>
 			<td>Font Brake Rotor</td>
 			<td>250mm x 3.5mm</td>
