@@ -10,13 +10,13 @@ sort: 4
 
 ## Measuring Chain Slack
 
-On a level surface, put the bike up on a stand where the rear wheel is elevated and spinning freely. Then, spin the rear wheel until you find the point in which the chain is the tighest. {{!-- TODO Elaborate --}}
+On a level surface, put the bike up on a stand where the rear wheel is elevated and spinning freely. Then, spin the rear wheel until you find the point in which the chain is the tightest. {{!-- TODO Elaborate --}}
 
 <a href='{{ site.STATIC }}articles/chain-slack-measurement.jpg' data-featherlight='{{ site.STATIC }}articles/chain-slack-measurement.jpg' target='_blank'>
 	<img src='{{ site.STATIC }}articles/chain-slack-measurement.jpg' class='img-right' width='200px'/>
 </a>
 
-To check the slack, find the intermediate position between the chain tensioner and the chain support bolt. At this point, measure the distane the chain is able to move by pushing the chain up, and then down. This is demonstrated in the diagram to the right.
+To check the slack, find the intermediate position between the chain tensioner and the chain support bolt. At this point, measure the distance the chain is able to move by pushing the chain up, and then down. This is demonstrated in the diagram to the right.
 
 The total distance from the center of the chain link at the top most point, the the center of the link at the bottom most point, should be between **38mm** and **48mm** (40mm - 50mm on the WR250X). If it is too tight or too loose, you should adjust your chain by following the instructions below.
 
